@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 casas-san-carlos.zip
 tests/screenshots/
+shots/
