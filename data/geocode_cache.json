@@ -1,0 +1,176 @@
+{
+ "bugambilia-751": null,
+ "royal-golf-club": null,
+ "c-club-real-vg-7-royal-golf-club": null,
+ "biznaga-residencial": null,
+ "calle-las-perlas-14-a-biznaga-residencial": null,
+ "calle-xi-y-j-sur-lomas-de-136": null,
+ "loma-bonita-135": null,
+ "fraccionamiento-atenea-residencial-en": null,
+ "fraccionamiento-atenea-residencial": null,
+ "loma-bonita-127": null,
+ "cam-de-los-yaquis": null,
+ "chinaca-368-country-club": null,
+ "ranchito-campestre": null,
+ "rafael-jesus-ranchito-campestre": null,
+ "de-los-seris-106-fraccionamiento-country-club-campestre": null,
+ "lote-vg-1d": null,
+ "club-real-lote-vg-1d-fraccionamiento-royal-golf-club": null,
+ "huatabampo-segunda-etapa-primera-seccion-fraccionamiento-country-club": null,
+ "huatabampo-1305-segunda-etapa-primera-seccion-fraccionamiento-country-club": null,
+ "rafael-jesus-s-n": null,
+ "predio-urbano-denominado-el-baviso-rafael-jesus-s-n": null,
+ "boulevard-manlio-fabio-beltrones-s-n-los-algodones-los-algodones": null,
+ "calle-g-ranchitos-campestre-en": null,
+ "blvd-costa-blanca-5-col-country-club": null,
+ "playa-blanca": null,
+ "norte-101": null,
+ "marina-real": {
+  "lat": 27.946825,
+  "lng": -111.091388,
+  "radius_m": 617,
+  "osm_display_name": "Marina Real, Guaymas, Sonora, México",
+  "query": "Marina Real, Sonora, México"
+ },
+ "country-club": null,
+ "mariana-real-embarcadero": null,
+ "residencial-amagi": null,
+ "el-mirador": null,
+ "villas-de": null,
+ "jose-martinez-bernal-y-guerrero-205-villas-de": null,
+ "villa-hermosa": null,
+ "paseo-dichoso-41": {
+  "lat": 27.951948,
+  "lng": -111.042831,
+  "radius_m": 150,
+  "osm_display_name": "Paseo Dichoso, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
+  "query": "Paseo Dichoso 41, San Carlos, Guaymas, Sonora, México"
+ },
+ "tecalai": null,
+ "caracol-peninsula": null,
+ "loma-bella": null,
+ "las-tinajas": null,
+ "270-calle-alamo-las-tinajas": null,
+ "230-calle-alamo-las-tinajas": null,
+ "villas-de-san-carlos": {
+  "lat": 27.968416,
+  "lng": -111.012948,
+  "radius_m": 150,
+  "osm_display_name": "Fraccionamiento Villas de San Carlos, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
+  "query": "Villas de San Carlos, San Carlos, Guaymas, Sonora, México"
+ },
+ "sexta-seccion": null,
+ "lomas-de-san-carlos": null,
+ "calle-xi-y-j-sur-lomas-de-san-carlos-136": null,
+ "loma-bonita": null,
+ "san-carlos-san-carlos-nuevo-guaymas": null,
+ "calle-g-ranchitos-campestre-en-san-carlos": null,
+ "carretera-marina-real": null,
+ "carretera-marina-real-marina-real-mex": null,
+ "suites-rubi": null,
+ "suites-rubi-calle-vicam-104-residencial-loma-del-mar-la-soledad-mex": null,
+ "privada-vicam": {
+  "lat": 27.96227,
+  "lng": -111.037232,
+  "radius_m": 150,
+  "osm_display_name": "Privada Vícam, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
+  "query": "Privada Vícam, San Carlos, Guaymas, Sonora, México"
+ },
+ "contry-club-camino-de-los-yaquis": null,
+ "suites-rubi-residencial-loma-del-mar-la-soledad-mex": null,
+ "california": null,
+ "vistas-del-country": null,
+ "vistas-del-country-camino-de-los-yaquis": null,
+ "mar-mediterraneo": {
+  "lat": 27.967116,
+  "lng": -111.107358,
+  "radius_m": 190,
+  "osm_display_name": "Mar Mediterráneo, San Carlos Plaza, Campo Pesquero la Manga, Guaymas, Sonora, México",
+  "query": "Mar Mediterráneo, San Carlos, Guaymas, Sonora, México"
+ },
+ "tetakawi": {
+  "lat": 27.959172,
+  "lng": -111.037944,
+  "radius_m": 1312,
+  "osm_display_name": "Tetakawi, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
+  "query": "Tetakawi, San Carlos, Guaymas, Sonora, México"
+ },
+ "calle-erisos": {
+  "lat": 27.958799,
+  "lng": -111.047907,
+  "radius_m": 150,
+  "osm_display_name": "Calle Erisos, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
+  "query": "Calle Erisos, San Carlos, Guaymas, Sonora, México"
+ },
+ "calle": {
+  "lat": 27.977085,
+  "lng": -111.026584,
+  "radius_m": 304,
+  "osm_display_name": "Calle I, El Basuron, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
+  "query": "Calle, San Carlos, Guaymas, Sonora, México"
+ },
+ "calle-los-manglares": {
+  "lat": 27.957585,
+  "lng": -111.038772,
+  "radius_m": 272,
+  "osm_display_name": "Calle los Manglares, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
+  "query": "Calle los Manglares, San Carlos, Guaymas, Sonora, México"
+ },
+ "calle-camino-de-los-navajos": {
+  "lat": 27.965196,
+  "lng": -111.043628,
+  "radius_m": 150,
+  "osm_display_name": "Calle Camino de los Návajos, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
+  "query": "Calle Camino de los Návajos, San Carlos, Guaymas, Sonora, México"
+ },
+ "calle-paseo-felix": {
+  "lat": 27.955451,
+  "lng": -111.04317,
+  "radius_m": 150,
+  "osm_display_name": "Calle Paseo Félix, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
+  "query": "Calle Paseo Félix, San Carlos, Guaymas, Sonora, México"
+ },
+ "el-tomate": {
+  "lat": 27.944114,
+  "lng": -111.056033,
+  "radius_m": 1500,
+  "osm_display_name": "El Tomate, Guaymas, Sonora, 85506, México",
+  "query": "El Tomate, Sonora, México"
+ },
+ "vista-real": {
+  "lat": 27.953711,
+  "lng": -111.091726,
+  "radius_m": 240,
+  "osm_display_name": "Vista Real, Villa California, Guaymas, Sonora, México",
+  "query": "Vista Real, Sonora, México"
+ },
+ "boulevard-los-arcos": {
+  "lat": 27.967872,
+  "lng": -111.014877,
+  "radius_m": 183,
+  "osm_display_name": "Boulevard los Arcos, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
+  "query": "Boulevard los Arcos, San Carlos, Guaymas, Sonora, México"
+ },
+ "las-cabrillas": {
+  "lat": 27.941817,
+  "lng": -111.056512,
+  "radius_m": 150,
+  "osm_display_name": "Las Cabrillas, El Tomate, Guaymas, Sonora, 85506, México",
+  "query": "Las Cabrillas, Sonora, México"
+ },
+ "camino-de-los-apaches": {
+  "lat": 27.967515,
+  "lng": -111.044151,
+  "radius_m": 246,
+  "osm_display_name": "Camino de los Apaches, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
+  "query": "Camino de los Apaches, San Carlos, Guaymas, Sonora, México"
+ },
+ "calle-camino-de-los-seris": {
+  "lat": 27.960865,
+  "lng": -111.034923,
+  "radius_m": 612,
+  "osm_display_name": "Calle Camino de los Seris, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
+  "query": "Calle Camino de los Seris, San Carlos, Guaymas, Sonora, México"
+ },
+ "creston": null
+}

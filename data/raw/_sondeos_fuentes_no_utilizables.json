@@ -1,0 +1,100 @@
+[
+ {
+  "key": null,
+  "source": "Inmuebles24",
+  "site": "https://www.inmuebles24.com/",
+  "started_at": "2026-10-15T19:35:35+00:00",
+  "raw_count": 0,
+  "kept": 0,
+  "errors": [
+   "HTTP 403, 403: protección anti-bot / acceso denegado al agente identificado; no se evade"
+  ],
+  "notes": [],
+  "probe_url": "https://www.inmuebles24.com/casas-en-venta-en-san-carlos-nuevo-guaymas.html",
+  "status": "bloqueado"
+ },
+ {
+  "key": null,
+  "source": "Vivanuncios",
+  "site": "https://www.vivanuncios.com.mx/",
+  "started_at": "2026-10-15T19:35:40+00:00",
+  "raw_count": 0,
+  "kept": 0,
+  "errors": [
+   "HTTP 403, 403: protección anti-bot / acceso denegado al agente identificado; no se evade"
+  ],
+  "notes": [],
+  "probe_url": "https://www.vivanuncios.com.mx/s-casas-en-venta/san-carlos-plaza_guaymas_sonora/v1c1293p1",
+  "status": "bloqueado"
+ },
+ {
+  "key": null,
+  "source": "Propiedades.com",
+  "site": "https://propiedades.com/",
+  "started_at": "2026-10-15T19:35:44+00:00",
+  "raw_count": 0,
+  "kept": 0,
+  "errors": [
+   "Sin respuesta: ReadTimeout: HTTPSConnectionPool(host='propiedades.com', port=443): Read timed out. (read timeout=20)"
+  ],
+  "notes": [],
+  "probe_url": "https://propiedades.com/san-carlos-san-carlos-nuevo-guaymas--guaymas/casas-venta",
+  "status": "error"
+ },
+ {
+  "key": null,
+  "source": "MercadoLibre Inmuebles",
+  "site": "https://inmuebles.mercadolibre.com.mx/",
+  "started_at": "2026-10-15T19:36:05+00:00",
+  "raw_count": 0,
+  "kept": 0,
+  "errors": [
+   "robots.txt prohíbe https://inmuebles.mercadolibre.com.mx/casas/venta/sonora/guaymas/ para: Claude-User, ClaudeBot"
+  ],
+  "notes": [],
+  "probe_url": "https://inmuebles.mercadolibre.com.mx/casas/venta/sonora/guaymas/",
+  "status": "robots_txt_no_permite"
+ },
+ {
+  "key": null,
+  "source": "Pincali (EasyBroker)",
+  "site": "https://www.pincali.com/",
+  "started_at": "2026-10-15T19:36:05+00:00",
+  "raw_count": 0,
+  "kept": 0,
+  "errors": [
+   "HTTP 202, 202: protección anti-bot / acceso denegado al agente identificado; no se evade"
+  ],
+  "notes": [],
+  "probe_url": "https://www.pincali.com/inmuebles/casas-en-venta-en-guaymas-sonora",
+  "status": "bloqueado"
+ },
+ {
+  "key": null,
+  "source": "Properstar",
+  "site": "https://www.properstar.com/",
+  "started_at": "2026-10-15T19:36:10+00:00",
+  "raw_count": 0,
+  "kept": 0,
+  "errors": [
+   "robots.txt responde HTTP 403 (acceso denegado al agente identificado); no se evade"
+  ],
+  "notes": [],
+  "probe_url": "https://www.properstar.com/mexico/san-carlos-loc-1/buy",
+  "status": "bloqueado"
+ },
+ {
+  "key": null,
+  "source": "JamesEdition",
+  "site": "https://www.jamesedition.com/",
+  "started_at": "2026-10-15T19:36:10+00:00",
+  "raw_count": 0,
+  "kept": 0,
+  "errors": [
+   "HTTP 403, 403: protección anti-bot / acceso denegado al agente identificado; no se evade"
+  ],
+  "notes": [],
+  "probe_url": "https://www.jamesedition.com/real_estate/san-carlos-mexico",
+  "status": "bloqueado"
+ }
+]

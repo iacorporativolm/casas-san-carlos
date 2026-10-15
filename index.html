@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Casas San Carlos</title>
+  <meta name="description" content="Casas en venta en San Carlos, Nuevo Guaymas, Sonora. Datos reales de portales y brokers, con enlace a cada anuncio original.">
+  <link rel="stylesheet" href="assets/vendor/leaflet.css">
+  <link rel="stylesheet" href="assets/vendor/MarkerCluster.css">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 26 L16 6 L28 26 Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M2 27 Q9 23 16 27 T30 27" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+      <div>
+        <h1>Casas en San Carlos</h1>
+        <p class="sub">Nuevo Guaymas, Sonora</p>
+      </div>
+    </div>
+    <div class="meta" id="meta" aria-live="polite">
+      <span id="meta-count">Cargando…</span>
+      <span class="dot">·</span>
+      <span id="meta-updated"></span>
+      <button class="link-btn" id="btn-sources" type="button">Fuentes y estado</button>
+    </div>
+  </header>
+
+  <nav class="filterbar" id="filterbar" aria-label="Filtros">
+    <div class="filters-scroll">
+      <div class="pop" data-pop="price"><button class="pill" type="button">Precio</button></div>
+      <div class="pop" data-pop="beds"><button class="pill" type="button">Recámaras</button></div>
+      <div class="pop" data-pop="baths"><button class="pill" type="button">Baños</button></div>
+      <div class="pop" data-pop="type"><button class="pill" type="button">Tipo</button></div>
+      <div class="pop" data-pop="area"><button class="pill" type="button">m²</button></div>
+      <div class="pop" data-pop="zone"><button class="pill" type="button">Zona</button></div>
+      <div class="pop" data-pop="source"><button class="pill" type="button">Fuente</button></div>
+      <button class="pill pill-toggle" id="btn-favs" type="button" aria-pressed="false">♥ Favoritos</button>
+      <button class="pill pill-ghost" id="btn-clear" type="button" hidden>Limpiar filtros</button>
+    </div>
+    <div class="filters-right">
+      <div class="ccy" role="group" aria-label="Moneda">
+        <button type="button" data-ccy="MXN" class="on">MXN</button>
+        <button type="button" data-ccy="USD">USD</button>
+      </div>
+      <label class="sort">
+        <span class="sr-only">Ordenar</span>
+        <select id="sort">
+          <option value="recent">Más reciente</option>
+          <option value="price_asc">Precio: menor a mayor</option>
+          <option value="price_desc">Precio: mayor a menor</option>
+          <option value="ppm2_asc">Precio por m² (menor)</option>
+        </select>
+      </label>
+    </div>
+  </nav>
+  <div class="fxline" id="fxline"></div>
+
+  <noscript>
+    <div style="margin:24px;padding:20px;border:1px solid #ccc;border-radius:12px;font:16px/1.5 system-ui,sans-serif">
+      <b>Este visor no puede mostrar la página.</b><br>
+      Ábrela en un navegador (Chrome, Safari, Edge o Firefox). En el celular, la vista previa de WhatsApp
+      o de "Archivos" no ejecuta la página: usa el link publicado o ábrela en una computadora.
+    </div>
+  </noscript>
+  <main class="layout" id="layout">
+    <section class="list-pane" id="list-pane" aria-label="Resultados">
+      <div class="list-head">
+        <p id="result-count"></p>
+        <div id="active-chips" class="chips"></div>
+      </div>
+      <p class="hidden-note" id="hidden-note" hidden></p>
+      <div class="grid" id="grid"></div>
+      <div class="empty" id="empty" hidden></div>
+    </section>
+    <section class="map-pane" id="map-pane" aria-label="Mapa">
+      <div id="map"></div>
+      <button class="search-area" id="search-area" type="button" hidden>Buscar en esta zona del mapa</button>
+      <div class="map-legend" id="map-legend">
+        <span><i class="lg-pin"></i>Ubicación del anuncio</span>
+        <span><i class="lg-approx"></i>≈ Zona aproximada (colonia)</span>
+      </div>
+    </section>
+  </main>
+
+  <button class="fab" id="fab" type="button" aria-controls="map-pane">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Zm0 2.2 6 2v11.6l-6-2V6.2Z" fill="currentColor"/></svg>
+    <span>Mapa</span>
+  </button>
+
+  <div class="compare-bar" id="compare-bar" hidden>
+    <div class="compare-items" id="compare-items"></div>
+    <button class="btn-primary" id="btn-compare" type="button">Comparar</button>
+  </div>
+
+  <dialog class="modal" id="modal">
+    <div class="modal-inner" id="modal-body"></div>
+  </dialog>
+
+  <script src="assets/vendor/leaflet.js"></script>
+  <script src="assets/vendor/leaflet.markercluster.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

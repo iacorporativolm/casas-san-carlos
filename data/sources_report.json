@@ -1,0 +1,340 @@
+{
+ "run_started_at": "2026-10-15T20:15:53+00:00",
+ "generated_at": "2026-10-15T20:25:07+00:00",
+ "totals": {
+  "raw_listings": 357,
+  "kept_after_filters": 288,
+  "final_after_dedupe": 242,
+  "coords_exacta": 192,
+  "coords_aproximada": 30,
+  "coords_null": 20,
+  "pct_coords_exacta": 79.3
+ },
+ "dedupe": {
+  "input": 288,
+  "output": 242,
+  "merged_groups": 40
+ },
+ "geocode": {
+  "geocoded_osm": 23,
+  "geocoded_corpus": 21,
+  "not_found": 22,
+  "town_only_or_missing": 3,
+  "errors": 0
+ },
+ "fx": {
+  "usd_mxn": 18.5225,
+  "rate_date": "2026-10-15",
+  "provider": "Frankfurter (Banco Central Europeo)",
+  "provider_url": "https://api.frankfurter.app/latest?from=USD&to=MXN",
+  "fetched_at": "2026-10-15T20:24:14+00:00"
+ },
+ "per_source": [
+  {
+   "key": "next_br",
+   "source": "NEXT Bienes Raíces",
+   "site": "https://www.nextbr.mx/",
+   "started_at": "2026-10-15T19:20:38+00:00",
+   "status": "ok",
+   "raw_count": 103,
+   "errors": [],
+   "notes": [
+    "Casas: 87 anuncios en venta (San Carlos)",
+    "Departamentos: 16 anuncios en venta (San Carlos)",
+    "Coordenada por defecto 27.96179,-111.0371 descartada en 2 anuncios",
+    "Coordenada por defecto 27.96912,-111.03748 descartada en 2 anuncios",
+    "Coordenada por defecto 27.96074,-111.04621 descartada en 5 anuncios",
+    "Coordenada por defecto 27.97136,-111.01234 descartada en 3 anuncios"
+   ],
+   "log": [],
+   "requests": 114,
+   "duration_s": 296.5,
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 0,
+   "excluded_type": 0,
+   "kept": 103,
+   "dropped_empty": 0
+  },
+  {
+   "key": "pentagono",
+   "source": "Pentágono Bienes Raíces",
+   "site": "https://pentagonobr.com/",
+   "started_at": "2026-10-15T19:05:31+00:00",
+   "status": "ok",
+   "raw_count": 19,
+   "errors": [],
+   "notes": [
+    "190 propiedades totales en la API; se filtran las de San Carlos/Guaymas"
+   ],
+   "log": [],
+   "requests": 11,
+   "duration_s": 27.7,
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 1,
+   "excluded_type": 10,
+   "kept": 8,
+   "dropped_empty": 0
+  },
+  {
+   "key": "remax",
+   "source": "RE/MAX México",
+   "site": "https://www.remax.com.mx/",
+   "started_at": "2026-10-15T19:05:31+00:00",
+   "status": "ok",
+   "raw_count": 4,
+   "errors": [],
+   "notes": [
+    "Casa: 4 en Guaymas (venta)",
+    "Casa en Condominio: 0 en Guaymas (venta)",
+    "Departamento: 0 en Guaymas (venta)"
+   ],
+   "log": [],
+   "requests": 8,
+   "duration_s": 21.7,
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 1,
+   "excluded_type": 0,
+   "kept": 3,
+   "dropped_empty": 0
+  },
+  {
+   "key": "coldwell_sancarlos",
+   "source": "Coldwell Banker San Carlos",
+   "site": "https://coldwellbankersancarlos.com/",
+   "started_at": "2026-10-15T19:05:31+00:00",
+   "status": "ok",
+   "raw_count": 39,
+   "errors": [
+    "agente 9135: 404 Client Error: Not Found for url: https://coldwellbankersancarlos.com/wp-json/wp/v2/agents/9135"
+   ],
+   "notes": [
+    "126 propiedades en la API; 39 con estatus For Sale",
+    "Coordenada por defecto 27.95396,-111.04946 descartada en 3 anuncios"
+   ],
+   "log": [],
+   "requests": 17,
+   "duration_s": 40.3,
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 2,
+   "excluded_type": 8,
+   "kept": 29,
+   "dropped_empty": 0
+  },
+  {
+   "key": "sancarlos_mls",
+   "source": "San Carlos MLS (Sonora MLS Regional)",
+   "site": "https://listings.sancarlosmls.mx/",
+   "started_at": "2026-10-15T19:20:38+00:00",
+   "status": "ok",
+   "raw_count": 108,
+   "errors": [],
+   "notes": [
+    "108 anuncios activos en 6 páginas del MLS (todas las áreas y tipos)",
+    "Precios con \"$\" = moneda base declarada por el portal (setCurrencySymbol); \"MXN ...\" = pesos"
+   ],
+   "log": [],
+   "requests": 116,
+   "duration_s": 287.7,
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 9,
+   "excluded_type": 27,
+   "kept": 66,
+   "dropped_empty": 0,
+   "excluded_fractional": 6
+  },
+  {
+   "key": "century21",
+   "source": "CENTURY 21 México",
+   "site": "https://century21mexico.com/",
+   "started_at": "2026-10-15T19:05:31+00:00",
+   "status": "ok",
+   "raw_count": 6,
+   "errors": [],
+   "notes": [
+    "25 inmuebles en venta en el municipio de Guaymas"
+   ],
+   "log": [],
+   "requests": 8,
+   "duration_s": 17.8,
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 0,
+   "excluded_type": 0,
+   "kept": 6,
+   "dropped_empty": 0
+  },
+  {
+   "key": "lamudi",
+   "source": "Lamudi",
+   "site": "https://www.lamudi.com.mx/",
+   "started_at": "2026-10-15T19:30:41+00:00",
+   "status": "parcial_bloqueado",
+   "raw_count": 55,
+   "errors": [
+    "Desde 2026-10-15T19:33:41+00:00 el sitio respondió una página de 'Security verification' (captcha) en lugar de las fichas; 38 fichas no se pudieron leer y no se guardan. No se intentó evadir el reto."
+   ],
+   "notes": [
+    "casa: 93 anuncios en venta (San Carlos Nuevo Guaymas)",
+    "departamento: 0 anuncios en venta (San Carlos Nuevo Guaymas)",
+    "Se conservan las 55 fichas leídas completas antes del reto",
+    "Coordenada por defecto 27.96179,-111.0371 descartada en 6 anuncios",
+    "Coordenada por defecto 27.96074,-111.04621 descartada en 2 anuncios"
+   ],
+   "log": [],
+   "requests": 99,
+   "duration_s": 294.1,
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 0,
+   "excluded_type": 0,
+   "kept": 55,
+   "dropped_empty": 0
+  },
+  {
+   "key": "remax_firstchoice",
+   "source": "RE/MAX First Choice San Carlos",
+   "site": "https://remax-firstchoice-sancarlosmexico.com/",
+   "started_at": "2026-10-15T20:15:53+00:00",
+   "status": "ok",
+   "raw_count": 23,
+   "errors": [],
+   "notes": [
+    "52 tarjetas en la búsqueda"
+   ],
+   "log": [],
+   "requests": 25,
+   "duration_s": 499.8,
+   "excluded_not_san_carlos": 5,
+   "excluded_type": 0,
+   "kept": 18,
+   "dropped_empty": 0
+  },
+  {
+   "key": null,
+   "source": "Inmuebles24",
+   "site": "https://www.inmuebles24.com/",
+   "started_at": "2026-10-15T19:35:35+00:00",
+   "raw_count": 0,
+   "kept": 0,
+   "errors": [
+    "HTTP 403, 403: protección anti-bot / acceso denegado al agente identificado; no se evade"
+   ],
+   "notes": [],
+   "probe_url": "https://www.inmuebles24.com/casas-en-venta-en-san-carlos-nuevo-guaymas.html",
+   "status": "bloqueado",
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 0,
+   "excluded_type": 0,
+   "dropped_empty": 0
+  },
+  {
+   "key": null,
+   "source": "Vivanuncios",
+   "site": "https://www.vivanuncios.com.mx/",
+   "started_at": "2026-10-15T19:35:40+00:00",
+   "raw_count": 0,
+   "kept": 0,
+   "errors": [
+    "HTTP 403, 403: protección anti-bot / acceso denegado al agente identificado; no se evade"
+   ],
+   "notes": [],
+   "probe_url": "https://www.vivanuncios.com.mx/s-casas-en-venta/san-carlos-plaza_guaymas_sonora/v1c1293p1",
+   "status": "bloqueado",
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 0,
+   "excluded_type": 0,
+   "dropped_empty": 0
+  },
+  {
+   "key": null,
+   "source": "Propiedades.com",
+   "site": "https://propiedades.com/",
+   "started_at": "2026-10-15T19:35:44+00:00",
+   "raw_count": 0,
+   "kept": 0,
+   "errors": [
+    "Sin respuesta: ReadTimeout: HTTPSConnectionPool(host='propiedades.com', port=443): Read timed out. (read timeout=20)"
+   ],
+   "notes": [],
+   "probe_url": "https://propiedades.com/san-carlos-san-carlos-nuevo-guaymas--guaymas/casas-venta",
+   "status": "error",
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 0,
+   "excluded_type": 0,
+   "dropped_empty": 0
+  },
+  {
+   "key": null,
+   "source": "MercadoLibre Inmuebles",
+   "site": "https://inmuebles.mercadolibre.com.mx/",
+   "started_at": "2026-10-15T19:36:05+00:00",
+   "raw_count": 0,
+   "kept": 0,
+   "errors": [
+    "robots.txt prohíbe https://inmuebles.mercadolibre.com.mx/casas/venta/sonora/guaymas/ para: Claude-User, ClaudeBot"
+   ],
+   "notes": [],
+   "probe_url": "https://inmuebles.mercadolibre.com.mx/casas/venta/sonora/guaymas/",
+   "status": "robots_txt_no_permite",
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 0,
+   "excluded_type": 0,
+   "dropped_empty": 0
+  },
+  {
+   "key": null,
+   "source": "Pincali (EasyBroker)",
+   "site": "https://www.pincali.com/",
+   "started_at": "2026-10-15T19:36:05+00:00",
+   "raw_count": 0,
+   "kept": 0,
+   "errors": [
+    "HTTP 202, 202: protección anti-bot / acceso denegado al agente identificado; no se evade"
+   ],
+   "notes": [],
+   "probe_url": "https://www.pincali.com/inmuebles/casas-en-venta-en-guaymas-sonora",
+   "status": "bloqueado",
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 0,
+   "excluded_type": 0,
+   "dropped_empty": 0
+  },
+  {
+   "key": null,
+   "source": "Properstar",
+   "site": "https://www.properstar.com/",
+   "started_at": "2026-10-15T19:36:10+00:00",
+   "raw_count": 0,
+   "kept": 0,
+   "errors": [
+    "robots.txt responde HTTP 403 (acceso denegado al agente identificado); no se evade"
+   ],
+   "notes": [],
+   "probe_url": "https://www.properstar.com/mexico/san-carlos-loc-1/buy",
+   "status": "bloqueado",
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 0,
+   "excluded_type": 0,
+   "dropped_empty": 0
+  },
+  {
+   "key": null,
+   "source": "JamesEdition",
+   "site": "https://www.jamesedition.com/",
+   "started_at": "2026-10-15T19:36:10+00:00",
+   "raw_count": 0,
+   "kept": 0,
+   "errors": [
+    "HTTP 403, 403: protección anti-bot / acceso denegado al agente identificado; no se evade"
+   ],
+   "notes": [],
+   "probe_url": "https://www.jamesedition.com/real_estate/san-carlos-mexico",
+   "status": "bloqueado",
+   "reused_from_previous_run": true,
+   "excluded_not_san_carlos": 0,
+   "excluded_type": 0,
+   "dropped_empty": 0
+  }
+ ],
+ "pipeline_log": [
+  "dHash falló para https://www.nextbr.mx/uploads/listings/68d1d8059013a.jpeg: 404 Client Error: Not Found for url: https://www.nextbr.mx/uploads/listings/68d1d8059013a.jpeg"
+ ]
+}
