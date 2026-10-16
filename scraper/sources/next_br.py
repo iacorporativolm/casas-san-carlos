@@ -22,7 +22,9 @@ SITE = "https://www.nextbr.mx/"
 LIST = "https://www.nextbr.mx/propiedades-clasica"
 DELAY = 2.5
 LAST_ERRORS: list[str] = []
-TYPES = {"Casas": "Casa", "Departamentos": "Departamento / Condominio"}
+TYPES = {"Casas": "Casa", "Departamentos": "Departamento / Condominio",
+         "Terrenos Residenciales": "Terreno", "Terrenos Campestres": "Terreno",
+         "Terrenos Comerciales": "Terreno", "Terrenos": "Terreno"}
 
 
 def _list(fetcher, type_id):
@@ -93,8 +95,10 @@ def scrape(fetcher):
     LAST_ERRORS.clear()
     notes = []
     out = []
+    seen: set[str] = set()
     for type_id, ptype in TYPES.items():
-        urls = _list(fetcher, type_id)
+        urls = [u for u in _list(fetcher, type_id) if u not in seen]
+        seen.update(urls)
         notes.append(f"{type_id}: {len(urls)} anuncios en venta (San Carlos)")
         for url in urls:
             try:
@@ -119,7 +123,8 @@ def scrape(fetcher):
                 zone=zone, address=d["address"], description=d["desc"], photos=d["photos"],
                 contact={"agency": SOURCE, "agent": d["agent"], "phone": d["phone"], "email": d["email"]},
                 lat=d["lat"], lng=d["lng"],
-                extra={"medios_banos": parse_number(f.get("medios baños")), "pisos": f.get("pisos")},
+                extra={"medios_banos": parse_number(f.get("medios baños")), "pisos": f.get("pisos"),
+                       "categoria_sitio": type_id},
             )
             rec["_in_san_carlos_search"] = True  # búsqueda filtrada por ciudad San Carlos en el propio sitio
             out.append(rec)

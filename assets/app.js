@@ -10,6 +10,7 @@
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const safeUrl = (u) => (/^https?:\/\//i.test(u || '') ? u : null);
   const NS = '<span class="ns">No especificado</span>';
+  const NA = '<span class="ns">No aplica (terreno)</span>';
   const LS = {
     get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* sin almacenamiento */ } },
@@ -69,9 +70,15 @@
       value: v,
     };
   }
+  const isLand = (r) => r.property_type === 'Terreno';
+  // Precio por m²: de construcción en casas/deptos; de terreno en terrenos
+  // Superficie publicada poco creíble (p. ej. "1 m²" en un lote): se muestra tal cual,
+  // pero no se usa para calcular precio por m².
+  const badArea = (r) => (isLand(r) ? r.land_m2 != null && r.land_m2 < 50 : r.construction_m2 != null && r.construction_m2 < 15);
   const ppm2 = (r) => {
     const v = priceIn(r, displayCcy(r) || 'MXN');
-    return v != null && r.construction_m2 ? v / r.construction_m2 : null;
+    const m2 = isLand(r) ? r.land_m2 : r.construction_m2;
+    return v != null && m2 && !badArea(r) ? v / m2 : null;
   };
   const sourcesOf = (r) => (r.sources && r.sources.length ? r.sources : [{ source: r.source, source_url: r.source_url, listing_id: r.listing_id, price: r.price, currency: r.currency }]);
 
@@ -91,6 +98,7 @@
       if (f.priceMin != null && v < f.priceMin) return [false, false];
       if (f.priceMax != null && v > f.priceMax) return [false, false];
     }
+    if ((f.beds || f.baths || f.m2Min != null || f.m2Max != null) && isLand(r)) return [false, false]; // no aplica a terrenos
     if (f.beds) { if (need(true, r.bedrooms) === false) return [false, missing]; if (r.bedrooms < f.beds) return [false, false]; }
     if (f.baths) { if (need(true, r.bathrooms) === false) return [false, missing]; if (r.bathrooms < f.baths) return [false, false]; }
     if (f.types.size) { if (need(true, r.property_type) === false) return [false, missing]; if (!f.types.has(r.property_type)) return [false, false]; }
@@ -227,7 +235,7 @@
       const approx = r.coords_precision === 'aproximada';
       const p = priceLabel(r);
       const icon = L.divIcon({
-        className: `price-pin${approx ? ' approx' : ''}${state.favs.has(r.id) ? ' fav' : ''}`,
+        className: `price-pin${approx ? ' approx' : ''}${isLand(r) ? ' land' : ''}${state.favs.has(r.id) ? ' fav' : ''}`,
         html: `<span>${approx ? '≈ ' : ''}${esc(p.pin)}</span>`,
         iconSize: null,
       });
@@ -281,6 +289,9 @@
 
   // ---------------------------------------------------------------- tarjetas
   function specsText(r) {
+    if (isLand(r)) {
+      return r.land_m2 != null ? `Terreno · ${fmtNum(r.land_m2)} m²` : 'Terreno · m² N/E';
+    }
     const parts = [];
     parts.push(r.bedrooms != null ? `${fmtNum(r.bedrooms, 1)} rec.` : 'rec. N/E');
     parts.push(r.bathrooms != null ? `${fmtNum(r.bathrooms, 1)} baños` : 'baños N/E');
@@ -448,6 +459,12 @@
       return `<tr><th>${label}</th>${raw.map((v, i) => `<td class="${b != null && v === b ? 'best' : ''}">${v == null ? NS : fmt(v, rs[i])}</td>`).join('')}</tr>`;
     };
     const approx = (r) => (displayCcy(r) !== r.currency ? '≈ ' : '');
+    // Igual que row(), pero en terrenos sin el dato muestra "No aplica" en vez de "No especificado"
+    const rowNA = (label, fn, fmt, dir) => {
+      const raw = vals(fn);
+      const b = dir ? best(raw, dir) : null;
+      return `<tr><th>${label}</th>${raw.map((v, i) => `<td class="${b != null && v === b ? 'best' : ''}">${v == null ? (isLand(rs[i]) ? NA : NS) : fmt(v, rs[i])}</td>`).join('')}</tr>`;
+    };
     const cur = (r) => displayCcy(r);
     const html = `
       <div class="modal-head"><div><h2>Comparar propiedades</h2><div class="sub">Datos tal como vienen en cada anuncio. En verde, el mejor valor de cada fila.</div></div><button class="close" type="button" data-close aria-label="Cerrar">✕</button></div>
@@ -456,9 +473,9 @@
         ${row('Precio', (r) => priceIn(r, cur(r)), (v, r) => esc(approx(r) + money(v, cur(r))), -1)}
         ${row('Precio por m²', (r) => ppm2(r), (v, r) => esc(approx(r) + money(v, cur(r))), -1)}
         ${row('Tipo', (r) => r.property_type, esc)}
-        ${row('Recámaras', (r) => r.bedrooms, (v) => fmtNum(v, 1), 1)}
-        ${row('Baños', (r) => r.bathrooms, (v) => fmtNum(v, 1), 1)}
-        ${row('m² construcción', (r) => r.construction_m2, (v) => `${fmtNum(v)} m²`, 1)}
+        ${rowNA('Recámaras', (r) => r.bedrooms, (v) => fmtNum(v, 1), 1)}
+        ${rowNA('Baños', (r) => r.bathrooms, (v) => fmtNum(v, 1), 1)}
+        ${rowNA('m² construcción', (r) => r.construction_m2, (v) => `${fmtNum(v)} m²`, 1)}
         ${row('m² terreno', (r) => r.land_m2, (v) => `${fmtNum(v)} m²`, 1)}
         ${row('Ubicación', (r) => r.coords_precision, (v) => (v === 'exacta' ? 'Exacta (del anuncio)' : 'Aproximada (colonia)'))}
         <tr><th>Fuentes</th>${rs.map((r) => `<td>${sourcesOf(r).map((s) => `<a href="${esc(s.source_url)}" target="_blank" rel="noopener noreferrer">${esc(s.source)} ↗</a>`).join('<br>')}</td>`).join('')}</tr>
@@ -472,14 +489,15 @@
     const fs = r.field_sources || {};
     const from = (k) => (fs[k] ? ` <span class="small">(de ${esc(fs[k])})</span>` : '');
     const v = (val, fmt = esc) => (val == null || val === '' ? NS : fmt(val));
+    const na = (val, fmt = esc) => (val == null && isLand(r) ? NA : v(val, fmt)); // terreno: "No aplica"
     const pm = ppm2(r);
     const items = [
       ['Tipo', v(r.property_type) + from('property_type')],
-      ['Recámaras', v(r.bedrooms, (x) => fmtNum(x, 1)) + from('bedrooms')],
-      ['Baños', v(r.bathrooms, (x) => fmtNum(x, 1)) + from('bathrooms')],
-      ['m² construcción', v(r.construction_m2, (x) => `${fmtNum(x)} m²`) + from('construction_m2')],
+      ['Recámaras', na(r.bedrooms, (x) => fmtNum(x, 1)) + from('bedrooms')],
+      ['Baños', na(r.bathrooms, (x) => fmtNum(x, 1)) + from('bathrooms')],
+      ['m² construcción', na(r.construction_m2, (x) => `${fmtNum(x)} m²`) + from('construction_m2')],
       ['m² terreno', v(r.land_m2, (x) => `${fmtNum(x)} m²`) + from('land_m2')],
-      ['Precio por m²', pm ? esc(money(pm, displayCcy(r))) : NS],
+      [isLand(r) ? 'Precio por m² de terreno' : 'Precio por m²', pm ? esc(money(pm, displayCcy(r))) : badArea(r) ? '<span class="ns">No se calcula: superficie publicada poco creíble</span>' : NS],
       ['Colonia / zona', v(r.zone) + from('zone')],
       ['Dirección', v(r.address) + from('address')],
       ['Publicado', r.published_at ? esc(fmtDate(r.published_at, false)) : NS],
@@ -617,7 +635,7 @@
   }
 
   // ----------------------------------------------------------- popovers / UI
-  const TYPES_ORDER = ['Casa', 'Townhouse / Villa', 'Departamento / Condominio'];
+  const TYPES_ORDER = ['Casa', 'Townhouse / Villa', 'Departamento / Condominio', 'Terreno'];
   function countBy(fn) {
     const m = new Map();
     for (const r of state.all) for (const k of [].concat(fn(r))) if (k != null) m.set(k, (m.get(k) || 0) + 1);

@@ -3,20 +3,20 @@
   "key": "lamudi",
   "source": "Lamudi",
   "site": "https://www.lamudi.com.mx/",
-  "started_at": "2026-10-15T19:30:41+00:00",
+  "started_at": "2026-10-16T00:33:52+00:00",
   "status": "parcial_bloqueado",
   "raw_count": 55,
   "errors": [
-   "Desde 2026-10-15T19:33:41+00:00 el sitio respondió una página de 'Security verification' (captcha) en lugar de las fichas; 38 fichas no se pudieron leer y no se guardan. No se intentó evadir el reto."
+   "Verificación humana a partir de https://www.lamudi.com.mx/detalle/41032-73-bd5f93deac12-af94-197f0b5-9cfc-7def tras 53 fichas leídas: HTTP 200 / reto anti-bot en https://www.lamudi.com.mx/detalle/41032-73-bd5f93deac12-af94-197f0b5-9cfc-7def"
   ],
   "notes": [
    "casa: 93 anuncios en venta (San Carlos Nuevo Guaymas)",
-   "departamento: 0 anuncios en venta (San Carlos Nuevo Guaymas)",
-   "Se conservan las 55 fichas leídas completas antes del reto"
+   "El sitio empezó a pedir verificación humana; se conservan solo las fichas leídas antes",
+   "Se conservan 2 anuncios de la corrida anterior que hoy no se pudieron releer (con su scraped_at original)"
   ],
   "log": [],
-  "requests": 99,
-  "duration_s": 294.1
+  "requests": 59,
+  "duration_s": 174.1
  },
  "listings": [
   {
@@ -61,7 +61,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-baa1ec6f0ea-351-1a049bd-8b3d-77fd",
    "listing_id": "41032-73-baa1ec6f0ea-351-1a049bd-8b3d-77fd",
-   "scraped_at": "2026-10-15T19:30:56+00:00",
+   "scraped_at": "2026-10-16T00:34:08+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa en Fraccionamiento"
@@ -121,7 +121,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-1b7505e958e1-bbda-199898f-8f1a-7842",
    "listing_id": "41032-73-1b7505e958e1-bbda-199898f-8f1a-7842",
-   "scraped_at": "2026-10-15T19:30:59+00:00",
+   "scraped_at": "2026-10-16T00:34:11+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -137,7 +137,7 @@
    "bathrooms": 4.0,
    "construction_m2": 250.0,
    "land_m2": 300.0,
-   "zone": "VILLA MEXICANA",
+   "zone": "Villa Mexicana",
    "address": "VILLA MEXICANA, San Carlos, Sonora, México",
    "description": "Casa equipada para 10 personas. Alberca grande en area comun a solo 10 pasos de la casa, asadores en area comun con baños, asador privado en casa con zink y barra. Internet de 200 mgs. Tres recamaras, cuatros baños y medio, equipadas con muebles, TV Smart con entretenimiento fire tv abierto. Hidro bomba presurizada, sala comedor, estancia con sillas de cine, sonido tipo cine, bar, cocina integral equipada, lavadora de platos, bolier de 30 galones, equipo de muebles de jardin, asador e4xterior en casa, pasto natural, aire acondicionado central marca carrier, dos unidades de cinco toneladas",
    "photos": [
@@ -177,7 +177,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-126de8342c9d-7ec2-1a0e9ea-a9e9-77b8",
    "listing_id": "41032-73-126de8342c9d-7ec2-1a0e9ea-a9e9-77b8",
-   "scraped_at": "2026-10-15T19:31:03+00:00",
+   "scraped_at": "2026-10-16T00:34:14+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -220,7 +220,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-93c182333697-354-19e89b4-886c-7422",
    "listing_id": "41032-73-93c182333697-354-19e89b4-886c-7422",
-   "scraped_at": "2026-10-15T19:31:05+00:00",
+   "scraped_at": "2026-10-16T00:34:17+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -268,7 +268,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-c425157f7188-4f6f-1a0a1dc-9dc7-74b2",
    "listing_id": "41032-73-c425157f7188-4f6f-1a0a1dc-9dc7-74b2",
-   "scraped_at": "2026-10-15T19:31:08+00:00",
+   "scraped_at": "2026-10-16T00:34:20+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -342,7 +342,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-158cde41e3d9-e603-194c9ef-a55a-76b6",
    "listing_id": "41032-73-158cde41e3d9-e603-194c9ef-a55a-76b6",
-   "scraped_at": "2026-10-15T19:31:11+00:00",
+   "scraped_at": "2026-10-16T00:34:23+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -403,7 +403,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-1fc91e13fe7-ff0b-19ab7ce-88f0-7729",
    "listing_id": "41032-73-1fc91e13fe7-ff0b-19ab7ce-88f0-7729",
-   "scraped_at": "2026-10-15T19:31:14+00:00",
+   "scraped_at": "2026-10-16T00:34:26+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -447,7 +447,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-9744f6acd0a5-53af-19d59a5-ab8b-718b",
    "listing_id": "41032-73-9744f6acd0a5-53af-19d59a5-ab8b-718b",
-   "scraped_at": "2026-10-15T19:31:17+00:00",
+   "scraped_at": "2026-10-16T00:34:29+00:00",
    "extra": {
     "medios_banos": 2,
     "categoria_lamudi": "Casa"
@@ -524,7 +524,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-f51bc98cd333-a387-194ce51-b08a-8042",
    "listing_id": "41032-73-f51bc98cd333-a387-194ce51-b08a-8042",
-   "scraped_at": "2026-10-15T19:31:20+00:00",
+   "scraped_at": "2026-10-16T00:34:32+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -592,7 +592,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-12bf76970485-a712-c82f3810-bdcc-4330",
    "listing_id": "41032-73-12bf76970485-a712-c82f3810-bdcc-4330",
-   "scraped_at": "2026-10-15T19:31:23+00:00",
+   "scraped_at": "2026-10-16T00:34:35+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -651,7 +651,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-9ea5f67f91c6-bfd1-19f8c8b-93db-7998",
    "listing_id": "41032-73-9ea5f67f91c6-bfd1-19f8c8b-93db-7998",
-   "scraped_at": "2026-10-15T19:31:26+00:00",
+   "scraped_at": "2026-10-16T00:34:38+00:00",
    "extra": {
     "medios_banos": 4,
     "categoria_lamudi": "Casa"
@@ -690,7 +690,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-570a04456a4-aca2-19f0b8c-9178-74e6",
    "listing_id": "41032-73-570a04456a4-aca2-19f0b8c-9178-74e6",
-   "scraped_at": "2026-10-15T19:31:29+00:00",
+   "scraped_at": "2026-10-16T00:34:41+00:00",
    "extra": {
     "medios_banos": 2,
     "categoria_lamudi": "Casa"
@@ -734,7 +734,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-de8bea4f5994-674b-1a01dbb-84dd-7767",
    "listing_id": "41032-73-de8bea4f5994-674b-1a01dbb-84dd-7767",
-   "scraped_at": "2026-10-15T19:31:32+00:00",
+   "scraped_at": "2026-10-16T00:34:44+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -777,7 +777,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-ccc6fac4dbe8-d7e8-196ae35-a936-76b8",
    "listing_id": "41032-73-ccc6fac4dbe8-d7e8-196ae35-a936-76b8",
-   "scraped_at": "2026-10-15T19:31:35+00:00",
+   "scraped_at": "2026-10-16T00:34:47+00:00",
    "extra": {
     "medios_banos": 2,
     "categoria_lamudi": "Casa"
@@ -837,7 +837,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-cce79b87e677-1085-19cde96-a12d-72e3",
    "listing_id": "41032-73-cce79b87e677-1085-19cde96-a12d-72e3",
-   "scraped_at": "2026-10-15T19:31:38+00:00",
+   "scraped_at": "2026-10-16T00:34:50+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa en Fraccionamiento"
@@ -853,7 +853,7 @@
    "bathrooms": 4.0,
    "construction_m2": null,
    "land_m2": null,
-   "zone": "VILLA MEXICANA",
+   "zone": "Villa Mexicana",
    "address": "VILLA MEXICANA, San Carlos, Sonora, México",
    "description": "🏡 CASA ESTILO HACIENDA CON ALBERCA EN SAN CARLOS | 3 RECÁMARAS | $7.75 MDP\n\nResidencia estilo mexicano contemporáneo ubicada en exclusivo desarrollo residencial.\n\nDestacan sus techos de bóveda de ladrillo, amplios espacios interiores, terraza privada y acceso inmediato a alberca.\n\nCaracterísticas:\n✔ 3 recámaras \n✔ 4.5 baños \n✔ Casa equipada para 10 personas \n✔ Cocina integral equipada \n✔ Estancia tipo cine y bar \n✔ Terraza con asador \n✔ Cochera techada \n✔ 2 equipos centrales Carrier\n\nAmenidades:\n🌴 Alberca\n🔥 Área común con asadores \n🌄 Entorno residencial con vistas al cerro\n\n💰 Precio de venta: $7,750,000 MXN (negociable)\n\n📞 662 399 ----",
    "photos": [
@@ -881,7 +881,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-8e5bd7ae4da0-901a-19ff8cf-935e-73e5",
    "listing_id": "41032-73-8e5bd7ae4da0-901a-19ff8cf-935e-73e5",
-   "scraped_at": "2026-10-15T19:31:41+00:00",
+   "scraped_at": "2026-10-16T00:34:53+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -897,7 +897,7 @@
    "bathrooms": 5.0,
    "construction_m2": 850.0,
    "land_m2": 400.0,
-   "zone": "Boulevard Los Algodones",
+   "zone": "Boulevard los Algodones",
    "address": "Boulevard Los Algodones, Villa California, Guaymas, Sonora, México",
    "description": "HERMOSA RESIDENCIA UBICADA A UNOS PASOS DE UNA DE LAS PLAYAS MAS BONITAS DEL MAR DE CORTES .\n\nVIVA EN UN LUGAR RODEADO DE MONTAÑA Y MAR .\nDESPIERTE CON UNA VISTA ESPECTACULAR AL MAR DE CORTES PLAYA LOS ALGODONES Y LAS MONTAÑAS .\n\nESTA RESIDENCIA LE OFRECE 4 AMPLIAS RECAMARAS CON BAÑO - VESTIDOR .\nUN GARAGE AMPLIO PARA HASTA 5 AUTOS CERRADO.\nESCALERA Y ELEVADOR PARA ACCESO A LA CASA EN TRES NIVELES .\n\nEN SEGUNDA PLANTA RECAMARAS COCINA Y ESTANCIA CON TERRAZA AMPLIA CON ALBERCA .\n\nEN TERCER NIVEL DOS RECAMARAS CON BAÑO QUE OFRECEN UNA VISTA ESPECTACULAR AL MAR , UNA AREA SOCIAL Y TERRAZA CON HERMOSA PANORAMICA AL MAR DE CORTES Y MONTAÑA .\n\nCAMINE A 1 MINUTO A LA ARENA BLANCA DE LA PLAYA LOS ALGODONES .\n\nPROYECTO EN CONSTRUCCION ACTUALMENTE SE ENTREGA EN JULIO DE 2027 EQUIPADO Y REFRIGERADO TOTALMENTE LISTO PARA QUE USTED LO AMUEBLE AL GUSTO .\n\nESTA HERMOSA RESIDENCIA SE ENTREGA EQUIPADA LLAVE EN MANO PARA QUE USTED LA PERSONALICE CON SUS MUEBLES AL GUSTO.\n\nSE ENTREGA CON SU COCINA EN AMDERAS FINAS DE CEDRO, CLOSETS, EQUIPOS DE REFRIGERACION, ACABADOS DE NUVEL PREMIUM .\n\nPOSIBILIDAD DE QUE LA VAYA PAGANDO EN EL TIEMPO DE CONSTRUCCION Y LA ADQUIERA A VALOR DE PRE-VENTA YA QUE ESTA RESIDENCIA TENDRA UN PRECIO FINAL DE 15% ADICIONAL, ESTO POR LA PLUSVALIA NATURAL Y POR COSTO FINANCIERO DE LA MISMA .\n\nSI USTED DESEA ADQUIRIRLA CON CREDITO HIPOTECARIO BANCARIO, PODEMOS ARMAR EL PLAN DE FINANCIAMIENTO PARA TRAMITARLE SU CREDITO SIN NINGUN COSTO DE GESTORIA PARA USTED .\n\nLE OFRECEMOS LA PÓSIBILIDAD DE PERSONALIZARLE ALGUNOS ACABADOS A SU GUSTO POR ESTAR EN PROYECTO DE CONSTRUCCION .\n\nDESE LA OPORTUNIDAD DE VIVIR AL EXPERIENCIA EN PLAYA LOS ALGODONES SAN CARLOS ..\n\nLLAMENOS",
    "photos": [
@@ -928,7 +928,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-7ae9c05e5e0e-e3d7-1a02c7f-be36-70de",
    "listing_id": "41032-73-7ae9c05e5e0e-e3d7-1a02c7f-be36-70de",
-   "scraped_at": "2026-10-15T19:31:44+00:00",
+   "scraped_at": "2026-10-16T00:34:56+00:00",
    "extra": {
     "medios_banos": 2,
     "categoria_lamudi": "Casa"
@@ -1012,7 +1012,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-6e9cbdf338a2-bb1d-194ce26-acdf-77c8",
    "listing_id": "41032-73-6e9cbdf338a2-bb1d-194ce26-acdf-77c8",
-   "scraped_at": "2026-10-15T19:31:47+00:00",
+   "scraped_at": "2026-10-16T00:34:59+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -1087,7 +1087,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-58a949f0ff4a-f7a6-194cde6-acdf-77c8",
    "listing_id": "41032-73-58a949f0ff4a-f7a6-194cde6-acdf-77c8",
-   "scraped_at": "2026-10-15T19:31:50+00:00",
+   "scraped_at": "2026-10-16T00:35:02+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -1171,7 +1171,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-4b8842b27157-bef8-194cddb-a89f-7aee",
    "listing_id": "41032-73-4b8842b27157-bef8-194cddb-a89f-7aee",
-   "scraped_at": "2026-10-15T19:31:53+00:00",
+   "scraped_at": "2026-10-16T00:35:05+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -1253,7 +1253,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-42f78da901fd-1d44-194cdd4-a89f-7aee",
    "listing_id": "41032-73-42f78da901fd-1d44-194cdd4-a89f-7aee",
-   "scraped_at": "2026-10-15T19:31:56+00:00",
+   "scraped_at": "2026-10-16T00:35:08+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -1311,7 +1311,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-e8161cac976a-3287-19a3c88-ab09-7056",
    "listing_id": "41032-73-e8161cac976a-3287-19a3c88-ab09-7056",
-   "scraped_at": "2026-10-15T19:31:59+00:00",
+   "scraped_at": "2026-10-16T00:35:11+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -1393,7 +1393,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-5efa8a02ac16-a8be-19d37cb-9b76-7380",
    "listing_id": "41032-73-5efa8a02ac16-a8be-19d37cb-9b76-7380",
-   "scraped_at": "2026-10-15T19:32:02+00:00",
+   "scraped_at": "2026-10-16T00:35:14+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -1434,7 +1434,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-782348507b10-154a-199e05b-8aef-7185",
    "listing_id": "41032-73-782348507b10-154a-199e05b-8aef-7185",
-   "scraped_at": "2026-10-15T19:32:05+00:00",
+   "scraped_at": "2026-10-16T00:35:17+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -1513,7 +1513,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-6e06fe6f79b-5b01-194ce73-b08b-8042",
    "listing_id": "41032-73-6e06fe6f79b-5b01-194ce73-b08b-8042",
-   "scraped_at": "2026-10-15T19:32:08+00:00",
+   "scraped_at": "2026-10-16T00:35:20+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -1581,7 +1581,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-defc365d490c-f20d-197a85a-8f2e-7341",
    "listing_id": "41032-73-defc365d490c-f20d-197a85a-8f2e-7341",
-   "scraped_at": "2026-10-15T19:32:11+00:00",
+   "scraped_at": "2026-10-16T00:35:23+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -1647,7 +1647,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-30ab70909923-c041-4f09dff0-8e6c-4e4d",
    "listing_id": "41032-73-30ab70909923-c041-4f09dff0-8e6c-4e4d",
-   "scraped_at": "2026-10-15T19:32:14+00:00",
+   "scraped_at": "2026-10-16T00:35:26+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -1702,7 +1702,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-45fd9d542d10-8a1e-19fbed9-941e-74b8",
    "listing_id": "41032-73-45fd9d542d10-8a1e-19fbed9-941e-74b8",
-   "scraped_at": "2026-10-15T19:32:17+00:00",
+   "scraped_at": "2026-10-16T00:35:29+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -1769,7 +1769,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-16285fe2ba5-105b-199cba5-8875-7b91",
    "listing_id": "41032-73-16285fe2ba5-105b-199cba5-8875-7b91",
-   "scraped_at": "2026-10-15T19:32:20+00:00",
+   "scraped_at": "2026-10-16T00:35:32+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -1835,7 +1835,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-9a4ed59bf2e0-1902-19e0b93-a54b-77cb",
    "listing_id": "41032-73-9a4ed59bf2e0-1902-19e0b93-a54b-77cb",
-   "scraped_at": "2026-10-15T19:32:23+00:00",
+   "scraped_at": "2026-10-16T00:35:35+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -1888,7 +1888,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-afa8ff929913-d505-19c4905-b135-7557",
    "listing_id": "41032-73-afa8ff929913-d505-19c4905-b135-7557",
-   "scraped_at": "2026-10-15T19:32:26+00:00",
+   "scraped_at": "2026-10-16T00:35:38+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -1945,7 +1945,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-e1245895817e-c106-19322e8-a39c-7e24",
    "listing_id": "41032-73-e1245895817e-c106-19322e8-a39c-7e24",
-   "scraped_at": "2026-10-15T19:32:29+00:00",
+   "scraped_at": "2026-10-16T00:35:41+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -1994,7 +1994,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-4eaaa4af3885-d5a0-1a0608e-8417-7c48",
    "listing_id": "41032-73-4eaaa4af3885-d5a0-1a0608e-8417-7c48",
-   "scraped_at": "2026-10-15T19:32:33+00:00",
+   "scraped_at": "2026-10-16T00:35:44+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2057,7 +2057,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-68e661a603a-983a-19e0b9d-a8c3-7a55",
    "listing_id": "41032-73-68e661a603a-983a-19e0b9d-a8c3-7a55",
-   "scraped_at": "2026-10-15T19:32:35+00:00",
+   "scraped_at": "2026-10-16T00:35:47+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -2127,7 +2127,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-ab350c0de69f-602d-19fac5d-b8c7-76b0",
    "listing_id": "41032-73-ab350c0de69f-602d-19fac5d-b8c7-76b0",
-   "scraped_at": "2026-10-15T19:32:38+00:00",
+   "scraped_at": "2026-10-16T00:35:50+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2204,7 +2204,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-db53856a486e-1b1-19fac41-b29f-713b",
    "listing_id": "41032-73-db53856a486e-1b1-19fac41-b29f-713b",
-   "scraped_at": "2026-10-15T19:32:41+00:00",
+   "scraped_at": "2026-10-16T00:35:53+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2270,7 +2270,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-1d82a93d33e0-ef0d-19fac3d-be5c-73fa",
    "listing_id": "41032-73-1d82a93d33e0-ef0d-19fac3d-be5c-73fa",
-   "scraped_at": "2026-10-15T19:32:44+00:00",
+   "scraped_at": "2026-10-16T00:35:56+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2317,7 +2317,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-c217a7921365-f782-19c723a-9472-76e6",
    "listing_id": "41032-73-c217a7921365-f782-19c723a-9472-76e6",
-   "scraped_at": "2026-10-15T19:32:47+00:00",
+   "scraped_at": "2026-10-16T00:35:59+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2366,7 +2366,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-8e42fb0271d8-6c6f-19a132f-975a-75c8",
    "listing_id": "41032-73-8e42fb0271d8-6c6f-19a132f-975a-75c8",
-   "scraped_at": "2026-10-15T19:32:50+00:00",
+   "scraped_at": "2026-10-16T00:36:02+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2420,7 +2420,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-cde9fdd3a124-c23d-19fac5e-9592-7d28",
    "listing_id": "41032-73-cde9fdd3a124-c23d-19fac5e-9592-7d28",
-   "scraped_at": "2026-10-15T19:32:53+00:00",
+   "scraped_at": "2026-10-16T00:36:05+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2470,7 +2470,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-b913f5fa07c9-e1d2-19fac5d-8df9-7c2b",
    "listing_id": "41032-73-b913f5fa07c9-e1d2-19fac5d-8df9-7c2b",
-   "scraped_at": "2026-10-15T19:32:56+00:00",
+   "scraped_at": "2026-10-16T00:36:08+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2524,7 +2524,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-761d4e2d0da0-7968-19fac52-8815-7da2",
    "listing_id": "41032-73-761d4e2d0da0-7968-19fac52-8815-7da2",
-   "scraped_at": "2026-10-15T19:32:59+00:00",
+   "scraped_at": "2026-10-16T00:36:11+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2583,7 +2583,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-b563ba983608-6210-19fac4f-84fb-76b1",
    "listing_id": "41032-73-b563ba983608-6210-19fac4f-84fb-76b1",
-   "scraped_at": "2026-10-15T19:33:02+00:00",
+   "scraped_at": "2026-10-16T00:36:14+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2628,7 +2628,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-8f62626bacc9-e0e-19fac53-829a-77df",
    "listing_id": "41032-73-8f62626bacc9-e0e-19fac53-829a-77df",
-   "scraped_at": "2026-10-15T19:33:05+00:00",
+   "scraped_at": "2026-10-16T00:36:17+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2673,7 +2673,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-9b674630789-90d9-19fac44-91e6-71bc",
    "listing_id": "41032-73-9b674630789-90d9-19fac44-91e6-71bc",
-   "scraped_at": "2026-10-15T19:33:08+00:00",
+   "scraped_at": "2026-10-16T00:36:20+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2722,7 +2722,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-fe0ccc12664a-3930-19fac44-aeaf-7707",
    "listing_id": "41032-73-fe0ccc12664a-3930-19fac44-aeaf-7707",
-   "scraped_at": "2026-10-15T19:33:12+00:00",
+   "scraped_at": "2026-10-16T00:36:23+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2767,7 +2767,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-e0025bc94ea6-22b7-19fac43-99f8-7333",
    "listing_id": "41032-73-e0025bc94ea6-22b7-19fac43-99f8-7333",
-   "scraped_at": "2026-10-15T19:33:14+00:00",
+   "scraped_at": "2026-10-16T00:36:26+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2820,7 +2820,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-2b14e053a365-8cd5-19eaf27-929f-7481",
    "listing_id": "41032-73-2b14e053a365-8cd5-19eaf27-929f-7481",
-   "scraped_at": "2026-10-15T19:33:17+00:00",
+   "scraped_at": "2026-10-16T00:36:29+00:00",
    "extra": {
     "medios_banos": 2,
     "categoria_lamudi": "Casa"
@@ -2878,7 +2878,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-a6e1340bda0f-cff1-19ed353-8c54-73a5",
    "listing_id": "41032-73-a6e1340bda0f-cff1-19ed353-8c54-73a5",
-   "scraped_at": "2026-10-15T19:33:20+00:00",
+   "scraped_at": "2026-10-16T00:36:32+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2922,7 +2922,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-c3eda0585ccf-c265-19fac42-846e-7ded",
    "listing_id": "41032-73-c3eda0585ccf-c265-19fac42-846e-7ded",
-   "scraped_at": "2026-10-15T19:33:23+00:00",
+   "scraped_at": "2026-10-16T00:36:35+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -2962,7 +2962,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-452be54c65c9-194d-19fac41-bc4a-7057",
    "listing_id": "41032-73-452be54c65c9-194d-19fac41-bc4a-7057",
-   "scraped_at": "2026-10-15T19:33:26+00:00",
+   "scraped_at": "2026-10-16T00:36:38+00:00",
    "extra": {
     "medios_banos": null,
     "categoria_lamudi": "Casa"
@@ -3000,7 +3000,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-118a09ad321d-8cb0-19d7e33-969f-77ac",
    "listing_id": "41032-73-118a09ad321d-8cb0-19d7e33-969f-77ac",
-   "scraped_at": "2026-10-15T19:33:29+00:00",
+   "scraped_at": "2026-10-16T00:36:41+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"
@@ -3076,7 +3076,7 @@
    "source": "Lamudi",
    "source_url": "https://www.lamudi.com.mx/detalle/41032-73-3b4dab2d0cd5-25e7-198008f-962d-7732",
    "listing_id": "41032-73-3b4dab2d0cd5-25e7-198008f-962d-7732",
-   "scraped_at": "2026-10-15T19:33:32+00:00",
+   "scraped_at": "2026-10-16T00:36:44+00:00",
    "extra": {
     "medios_banos": 1,
     "categoria_lamudi": "Casa"

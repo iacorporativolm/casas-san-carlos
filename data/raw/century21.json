@@ -3,18 +3,113 @@
   "key": "century21",
   "source": "CENTURY 21 México",
   "site": "https://century21mexico.com/",
-  "started_at": "2026-10-15T19:05:31+00:00",
+  "started_at": "2026-10-16T00:33:52+00:00",
   "status": "ok",
-  "raw_count": 6,
+  "raw_count": 25,
   "errors": [],
   "notes": [
    "25 inmuebles en venta en el municipio de Guaymas"
   ],
   "log": [],
-  "requests": 8,
-  "duration_s": 17.8
+  "requests": 27,
+  "duration_s": 65.4
  },
  "listings": [
+  {
+   "title": "Más que un terreno, un estilo de vida frente al mar",
+   "price": 150000.0,
+   "currency": "USD",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 600.0,
+   "zone": "Punta Arrecifes Residencial",
+   "address": "Punta Arrecifes Residencial, Guaymas, Sonora, México, 85454",
+   "description": "Hay lugares donde compras un terreno… y lugares donde empiezas a imaginar tu vida. \r\n\r\nConoce Residencial Del Mar, una exclusiva comunidad residencial frente al Mar de Cortés, diseñada para quienes buscan tranquilidad, privacidad y un estilo de vida rodeado de naturaleza en San Carlos, Sonora.\r\n\r\nAquí encontrarás lotes residenciales de amplias dimensiones, con espectaculares vistas al mar y un entorno cuidadosamente planeado para disfrutar cada momento.\r\n\r\nAmenidades exclusivas\r\n\r\nCasa Club para residentes\r\nAlberca\r\nGimnasio\r\nCancha de pádel\r\nTerraza techada\r\nSalón de usos múltiples\r\nCocina de catering\r\nJardín desértico\r\nÁrea de reciclaje\r\nBaños\r\nEspacios para conectar con la naturaleza\r\n\r\nMirador panorámico\r\n\r\nÁrea de contemplación\r\nJardín de esculturas\r\nAcceso directo al mar\r\n\r\nAdemás, el desarrollo cuenta con reglamento de construcción, garantizando una arquitectura contemporánea y una comunidad con alta plusvalía.\r\n\r\nInvierte con tranquilidad\r\n\r\n Financiamiento directo sin intereses\r\n Lotes residenciales con vistas privilegiadas al Mar de Cortés\r\n Comunidad privada y planeada\r\n Listo para escriturar al liquidar\r\n Lotes promedio desde 600 m² y Ocean Front de aproximadamente 750 m²\r\n\r\nNo se trata solamente de tener un terreno en San Carlos...\r\nSe trata de tener un lugar donde cada amanecer, cada atardecer y cada momento se vivan frente al mar.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/7qP91tsP/uploads/572/propiedades/628004/6a76436d6ff13.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/t6OuqZna/uploads/572/propiedades/628004/6a76436c5e4ce.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/hJ3YDfEF/uploads/572/propiedades/628004/6a76437012414.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/za0bV7mb/uploads/572/propiedades/628004/6a764374e6fcb.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/01pGMKRG/uploads/572/propiedades/628004/6a7643730e981.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/XGmTJwqU/uploads/572/propiedades/628004/6a76436e5b444.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/dgW1xlgR/uploads/572/propiedades/628004/6a764377d0c58.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/wVphezSU/uploads/572/propiedades/628004/6a7643710761b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/jvt2FcSb/uploads/572/propiedades/628004/6a764375ca3d3.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/CSIUOCo0/uploads/572/propiedades/628004/6a76437ac62f3.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/5WVzjr5B/uploads/572/propiedades/628004/6a76437fa63f4.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/hbO8ewoO/uploads/572/propiedades/628004/6a764380a9536.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/IZhINXui/uploads/572/propiedades/628004/6a76436f3eb6a.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/Tr53r15u/uploads/572/propiedades/628004/6a76438336065.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/M4QtN177/uploads/572/propiedades/628004/6a76437da757f.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/5xJmxdkg/uploads/572/propiedades/628004/6a764379d6d67.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/LajXw3EI/uploads/572/propiedades/628004/6a7643841aa97.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/qmjMQJ1B/uploads/572/propiedades/628004/6a7643722b406.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/8F3j0TCF/uploads/572/propiedades/628004/6a764378cf063.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/mbcYSbJQ/uploads/572/propiedades/628004/6a76438201bcb.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": null,
+   "lng": null,
+   "coords_precision": null,
+   "published_at": "2026-08-07",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/628004_mas-que-un-terreno-un-estilo-de-vida-frente-al-mar",
+   "listing_id": "628004",
+   "scraped_at": "2026-10-16T00:33:58+00:00",
+   "_notes": [
+    "coordenadas del anuncio (27.93172710055278,-110.97059559024353) fuera de San Carlos; descartadas"
+   ],
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261215764",
+    "cp": "85454"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Terreno Premium con vista al Mar en Vista Real | San Carlos, Sonora",
+   "price": 419000.0,
+   "currency": "USD",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1979.9,
+   "zone": "San Carlos Nuevo Guaymas",
+   "address": "San Carlos Nuevo Guaymas, Guaymas, Sonora, México, 85506",
+   "description": "Hay terrenos… y hay ubicaciones que simplemente no vuelven a salir al mercado.\r\n\r\nEste espectacular lote de 1,979.90 m² se encuentra en Vista Real, uno de los desarrollos residenciales más exclusivos de San Carlos, rodeado de residencias de lujo y con una ubicación privilegiada para construir una propiedad verdaderamente extraordinaria.\r\n\r\nAmenidades exclusivas del desarrollo:\r\n\r\n Acceso privado a la playa\r\n Dos áreas comunes con alberca\r\n Cancha de tenis\r\n Fire pits para disfrutar increíbles atardeceres\r\n Áreas verdes y paisajismo de primer nivel\r\n Acceso controlado y seguridad para tu tranquilidad\r\n\r\nEste terreno es ideal para quienes buscan:\r\n Construir una residencia de lujo.\r\n Disfrutar un estilo de vida exclusivo frente al mar.\r\n Invertir en una de las zonas con mayor plusvalía de San Carlos.\r\n\r\n Superficie: 1,979.90 m².\r\n\r\nCalidad que protege tu inversión: La construcción está a cargo de la constructora local de Vista Real, que garantiza altos estándares de calidad, arquitectura armónica con vistas y precios competitivos y acordes al mercado.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/hbQCWtw0/uploads/572/propiedades/627308/6a6e3767ba049.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/6Pg51VS9/uploads/572/propiedades/627308/6a6e37af2cee0.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Izmenee Orona Hernández",
+    "phone": "+526624022685",
+    "email": "izmenee@c21sunsethomes.com"
+   },
+   "lat": 27.95395755893988,
+   "lng": -111.09153912110978,
+   "coords_precision": "exacta",
+   "published_at": "2026-07-27",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/627308_terreno-premium-con-vista-al-mar-en-vista-real-san-carlos-sonora",
+   "listing_id": "627308",
+   "scraped_at": "2026-10-16T00:34:00+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261212512",
+    "cp": "85506"
+   },
+   "_in_san_carlos_search": false
+  },
   {
    "title": "Casa en venta en El Mirador Residencial | San Carlos, Sonora",
    "price": 13490000.0,
@@ -24,7 +119,7 @@
    "bathrooms": 2.0,
    "construction_m2": 260.0,
    "land_m2": 354.56,
-   "zone": "Lomas Del Mirador",
+   "zone": "Lomas del Mirador",
    "address": "Lomas Del Mirador, Guaymas, Sonora, México, 85423",
    "description": "Vive o invierte en una residencia que combina diseño, confort y eficiencia, ubicada en uno de los fraccionamientos más exclusivos de San Carlos.\r\n\r\nCaracterísticas:\r\n 354.56 m² de terreno\r\n 260 m² de construcción\r\n Cochera techada para 4 vehículos\r\n Alberca privada\r\n Sistema de paneles solares\r\n Cocina integral de parota con cubierta de granito\r\n Terraza\r\n Minisplits instalados\r\n Portón eléctrico\r\n Cisterna 5mil litros\r\n Totalmente equipada \r\n\r\nIdeal como residencia familiar, casa de descanso o inversión para renta vacacional, gracias a su excelente ubicación, acabados de alta calidad y gran potencial de plusvalía.",
    "photos": [
@@ -61,7 +156,7 @@
    "source": "CENTURY 21 México",
    "source_url": "https://century21mexico.com/propiedad/624279_casa-en-venta-en-el-mirador-residencial-san-carlos-sonora",
    "listing_id": "624279",
-   "scraped_at": "2026-10-15T19:05:36+00:00",
+   "scraped_at": "2026-10-16T00:34:03+00:00",
    "extra": {
     "medios_banos": 1.0,
     "mls": "MX261195531",
@@ -118,11 +213,611 @@
    "source": "CENTURY 21 México",
    "source_url": "https://century21mexico.com/propiedad/619509_residencia-de-lujo-en-punta-del-mar-san-carlos",
    "listing_id": "619509",
-   "scraped_at": "2026-10-15T19:05:38+00:00",
+   "scraped_at": "2026-10-16T00:34:05+00:00",
    "extra": {
     "medios_banos": 1.0,
     "mls": "MX261171823",
     "cp": "85506"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 11106176.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1221.6,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/8JQ3CeL7/uploads/572/propiedades/613993/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/qKldPlMc/uploads/572/propiedades/613993/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/q1RIFA2y/uploads/572/propiedades/613993/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/W3ygfjLU/uploads/572/propiedades/613993/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/lHHsbo7Q/uploads/572/propiedades/613993/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/613993_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "613993",
+   "scraped_at": "2026-10-16T00:34:09+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117581",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 10399622.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1264.93,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/CyUEOYQY/uploads/572/propiedades/613995/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/0GHzdzgt/uploads/572/propiedades/613995/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/SASftrpT/uploads/572/propiedades/613995/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/PZ0aqSPF/uploads/572/propiedades/613995/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/KrpFp3fR/uploads/572/propiedades/613995/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/613995_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "613995",
+   "scraped_at": "2026-10-16T00:34:10+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117575",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 11625118.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1413.89,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/HEkaTmgQ/uploads/572/propiedades/613996/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/25dZMh61/uploads/572/propiedades/613996/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/0qUfNaii/uploads/572/propiedades/613996/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/RrviVWA0/uploads/572/propiedades/613996/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/4O95lAcv/uploads/572/propiedades/613996/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/613996_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "613996",
+   "scraped_at": "2026-10-16T00:34:13+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117580",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 11272018.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1237.03,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/CJActk7Z/uploads/572/propiedades/614001/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/UGgYNnW8/uploads/572/propiedades/614001/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/QU58PsaW/uploads/572/propiedades/614001/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/xMl3Vw8o/uploads/572/propiedades/614001/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/ZVVVJDwu/uploads/572/propiedades/614001/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/614001_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "614001",
+   "scraped_at": "2026-10-16T00:34:15+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117585",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 12017987.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1384.84,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/gnMbeDwp/uploads/572/propiedades/613997/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/DDp7eNzI/uploads/572/propiedades/613997/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/KOWbFLsF/uploads/572/propiedades/613997/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/VYjQULiF/uploads/572/propiedades/613997/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/oLL5wREu/uploads/572/propiedades/613997/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/613997_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "613997",
+   "scraped_at": "2026-10-16T00:34:18+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117576",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 12600075.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1524.51,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/5WN5sGBj/uploads/572/propiedades/614003/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/I4vaL3Tk/uploads/572/propiedades/614003/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/uNC93i76/uploads/572/propiedades/614003/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/p6zJoBtV/uploads/572/propiedades/614003/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/lgDzqvN2/uploads/572/propiedades/614003/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/614003_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "614003",
+   "scraped_at": "2026-10-16T00:34:20+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117588",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 13520424.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1487.15,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/8ZmPNbdv/uploads/572/propiedades/614004/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/TCizocRp/uploads/572/propiedades/614004/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/HDVgB25d/uploads/572/propiedades/614004/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/PwohCq9K/uploads/572/propiedades/614004/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/pr6A1Dx8/uploads/572/propiedades/614004/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/614004_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "614004",
+   "scraped_at": "2026-10-16T00:34:23+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117584",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 12188602.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1404.5,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/8qa7mfb4/uploads/572/propiedades/614002/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/68tJtDtv/uploads/572/propiedades/614002/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/Xmsp68FD/uploads/572/propiedades/614002/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/z84Yl3kC/uploads/572/propiedades/614002/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/pTnXJepL/uploads/572/propiedades/614002/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/614002_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "614002",
+   "scraped_at": "2026-10-16T00:34:26+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117586",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 17723635.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1940.19,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/zBdEBXMl/uploads/572/propiedades/614006/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/h0lbRBzk/uploads/572/propiedades/614006/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/edAg3weY/uploads/572/propiedades/614006/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/IrdVW2so/uploads/572/propiedades/614006/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/lPG55K3W/uploads/572/propiedades/614006/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/614006_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "614006",
+   "scraped_at": "2026-10-16T00:34:28+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117592",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 18761074.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 2161.85,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/c0tE9uAu/uploads/572/propiedades/614007/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/0IEBOdfb/uploads/572/propiedades/614007/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/CONM01gM/uploads/572/propiedades/614007/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/fyFU7YEA/uploads/572/propiedades/614007/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/4n84vS3S/uploads/572/propiedades/614007/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/614007_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "614007",
+   "scraped_at": "2026-10-16T00:34:30+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117589",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 17723635.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1940.19,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/xTk8trMf/uploads/572/propiedades/614008/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/YHxzrIJ7/uploads/572/propiedades/614008/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/M9IHmEYm/uploads/572/propiedades/614008/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/L6YMxbfW/uploads/572/propiedades/614008/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/eeHhSX9C/uploads/572/propiedades/614008/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/614008_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "614008",
+   "scraped_at": "2026-10-16T00:34:33+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117591",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 17423459.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1907.33,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/gjmSSmjS/uploads/572/propiedades/614009/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/p12F5zak/uploads/572/propiedades/614009/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/bu679OFM/uploads/572/propiedades/614009/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/JWH23H9E/uploads/572/propiedades/614009/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/siHwY0Gy/uploads/572/propiedades/614009/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/614009_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "614009",
+   "scraped_at": "2026-10-16T00:34:35+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117590",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 13549238.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1486.94,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/yV5gM0jC/uploads/572/propiedades/614005/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/wygis78O/uploads/572/propiedades/614005/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/Qxxfa9tM/uploads/572/propiedades/614005/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/okjNgi80/uploads/572/propiedades/614005/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/I7V4yTTl/uploads/572/propiedades/614005/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/614005_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "614005",
+   "scraped_at": "2026-10-16T00:34:38+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117583",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 13482355.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1553.58,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/hWdONWDv/uploads/572/propiedades/613994/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/Le93Bq15/uploads/572/propiedades/613994/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/TIYl0epx/uploads/572/propiedades/613994/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/ykPtyYMj/uploads/572/propiedades/613994/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/4OGzVUnz/uploads/572/propiedades/613994/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-08",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/613994_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "613994",
+   "scraped_at": "2026-10-16T00:34:40+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117578",
+    "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Punta del Desierto | Luxury Sea of Cortez View Estates – San Carlos, Sonora",
+   "price": 13303083.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1529.09,
+   "zone": "Punta del Desierto",
+   "address": "Punta del Desierto, Guaymas, Sonora, México, 85503",
+   "description": "Ubicado en el exclusivo destino de San Carlos, Punta del Desierto representa una de las oportunidades más selectas para desarrollar una residencia de lujo frente al Mar de Cortés.\r\n\r\nEstos terrenos excepcionales ofrecen vistas panorámicas ininterrumpidas al Mar de Cortés, un santuario natural reconocido a nivel mundial por sus aguas cristalinas, biodiversidad y paisajes únicos donde el desierto, la montaña y el mar convergen en una composición simplemente inigualable.\r\n\r\nDiseñado para un estilo de vida sofisticado y en armonía con la naturaleza, el desarrollo integra infraestructura de primer nivel:\r\n\r\nVialidades de concreto hidráulico con acabados de alta durabilidad\r\nAlumbrado público con red subterránea\r\nElectrificación subterránea \r\nservicios subterráneos\r\n\r\nPunta del Desierto ofrece el escenario ideal para crear una residencia arquitectónica icónica, donde cada detalle se alinea con un estilo de vida exclusivo: navegación en el Mar de Cortés, pesca deportiva de clase mundial, golf, privacidad absoluta y atardeceres que redefinen el lujo cotidiano.\r\n\r\nOpciones de financiamiento privado disponibles para una adquisición flexible y estratégica.\r\n\r\nUna oportunidad única para adquirir un patrimonio frente al Mar de Cortés, donde el lujo se define por la naturaleza, la privacidad y vistas atemporales.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/r6iE8AZY/uploads/572/propiedades/613741/69d6d9f6bb443.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/VwGPhlSJ/uploads/572/propiedades/613741/69d6d9f7ba8b6.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/oZQzWkLT/uploads/572/propiedades/613741/69d6d9f9ebe8e.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/h9G5EWwQ/uploads/572/propiedades/613741/69d6d9f8d384b.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/EBS6FmoH/uploads/572/propiedades/613741/69d6c409b6f31.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Sunset Homes",
+    "agent": "Mahara Rodríguez López",
+    "phone": "+526622950757",
+    "email": "mrodriguez@c21sunsethomes.com"
+   },
+   "lat": 27.943419784838664,
+   "lng": -111.09952556119232,
+   "coords_precision": "exacta",
+   "published_at": "2026-04-06",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/613741_punta-del-desierto-luxury-sea-of-cortez-view-estates-san-carlos-sonora",
+   "listing_id": "613741",
+   "scraped_at": "2026-10-16T00:34:43+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX261117506",
+    "cp": "85503"
    },
    "_in_san_carlos_search": false
   },
@@ -172,7 +867,7 @@
    "source": "CENTURY 21 México",
    "source_url": "https://century21mexico.com/propiedad/602204_se-vende-casa-en-san-carlos-guaymas-sonora",
    "listing_id": "602204",
-   "scraped_at": "2026-10-15T19:05:41+00:00",
+   "scraped_at": "2026-10-16T00:34:45+00:00",
    "extra": {
     "medios_banos": null,
     "mls": "MX251057608",
@@ -235,11 +930,49 @@
    "source": "CENTURY 21 México",
    "source_url": "https://century21mexico.com/propiedad/600201_casa-en-venta-a-unos-pasos-de-playa-algodones-san-carlos-sonora",
    "listing_id": "600201",
-   "scraped_at": "2026-10-15T19:05:44+00:00",
+   "scraped_at": "2026-10-16T00:34:48+00:00",
    "extra": {
     "medios_banos": null,
     "mls": "MX251047906",
     "cp": "85503"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Terreno en Venta: Oportunidad Única en San Carlos, Nuevo Guaymas",
+   "price": 60000000.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 22827.0,
+   "zone": "San Carlos Nuevo Guaymas",
+   "address": "S/N Caracol Turístico San Carlos Nuevo Guaymas, Sonora 1, San Carlos Nuevo Guaymas, Guaymas, Sonora, México, 85506",
+   "description": "¡Descubre este amplio terreno de 22,827 m² en una de las zonas con mayor potencial de crecimiento en San Carlos, Nuevo Guaymas! Ideal para inversionistas, desarrolladores o visionarios que buscan un lienzo en blanco para proyectos residenciales, comerciales, turísticos o mixtos.\r\n\r\nExtensión generosa: Más de 2 hectáreas de terreno plano y regular, perfecto para subdivisiones, construcción de viviendas, condominios, hotel boutique o centro comercial.\r\nUbicación estratégica: A minutos del Mar de Cortés, con acceso rápido a playas icónicas como Algodones, clubes náuticos, campo de golf y la Marina San Carlos. Cerca de la carretera internacional y servicios básicos.\r\nEntorno natural: Vistas abiertas al desierto sonorense y cercanía al mar, con clima privilegiado todo el año.\r\n¡Una joya inmobiliaria en una de las zonas más cotizadas del noroeste de México! Perfecta para capitalizar el boom turístico y residencial de San Carlos.",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/s45T5eBB/uploads/601/propiedades/597680/6900f127d56fb.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/bIkszIDF/uploads/601/propiedades/597680/6900f12870388.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/KoG921bw/uploads/601/propiedades/597680/6900f02047805.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Grupo Oro + ME",
+    "agent": "Juan José Peña Castillo",
+    "phone": "+525558099099",
+    "email": "jjpc@c21grupoorome.com"
+   },
+   "lat": 27.94388259893516,
+   "lng": -111.05383397378846,
+   "coords_precision": "exacta",
+   "published_at": "2025-08-19",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/597680_terreno-en-venta-oportunidad-unica-en-san-carlos-nuevo-guaymas",
+   "listing_id": "597680",
+   "scraped_at": "2026-10-16T00:34:50+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX251034496",
+    "cp": "85506"
    },
    "_in_san_carlos_search": false
   },
@@ -274,7 +1007,7 @@
    "source": "CENTURY 21 México",
    "source_url": "https://century21mexico.com/propiedad/593264_preventa-de-departamentos-costessa-high-sea-living-playa-san-carlos",
    "listing_id": "593264",
-   "scraped_at": "2026-10-15T19:05:46+00:00",
+   "scraped_at": "2026-10-16T00:34:53+00:00",
    "extra": {
     "medios_banos": 0.0,
     "mls": "MX251012847",
@@ -313,10 +1046,47 @@
    "source": "CENTURY 21 México",
    "source_url": "https://century21mexico.com/propiedad/593263_preventa-de-departamentos-costessa-high-sea-living-playa-san-carlos",
    "listing_id": "593263",
-   "scraped_at": "2026-10-15T19:05:48+00:00",
+   "scraped_at": "2026-10-16T00:34:55+00:00",
    "extra": {
     "medios_banos": null,
     "mls": "MX251012850",
+    "cp": "85506"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Terreno en Venta En San Carlos, Sonora",
+   "price": 210472500.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 31650.0,
+   "zone": "San Carlos",
+   "address": "Blvd Gabriel Estrada S/N, San Carlos, Guaymas, Sonora, México, 85506",
+   "description": "Excelente terreno, con muy buena ubicacion, cerca de playa en San Carlos, Sonora",
+   "photos": [
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/PT2QEeqp/uploads/87/propiedades/563825/678936cda97c7.jpg",
+    "https://cdn.21online.lat/mexico/cache/awsTest1/rc/fvRQq2w6/uploads/87/propiedades/563825/67896cb1354ee.jpg"
+   ],
+   "contact": {
+    "agency": "CENTURY 21 Grupo Oro",
+    "agent": "Yoly Orozco Gutierrez",
+    "phone": "+526677210021",
+    "email": "yoly@c21grupooro.com"
+   },
+   "lat": 27.9486817,
+   "lng": -111.052569,
+   "coords_precision": "exacta",
+   "published_at": "2025-01-16",
+   "source": "CENTURY 21 México",
+   "source_url": "https://century21mexico.com/propiedad/563825_terreno-en-venta-en-san-carlos-sonora",
+   "listing_id": "563825",
+   "scraped_at": "2026-10-16T00:34:58+00:00",
+   "extra": {
+    "medios_banos": null,
+    "mls": "MX25866302",
     "cp": "85506"
    },
    "_in_san_carlos_search": false

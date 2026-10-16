@@ -1,6 +1,6 @@
-# Casas en San Carlos (Nuevo Guaymas, Sonora)
+# Casas y terrenos en San Carlos (Nuevo Guaymas, Sonora)
 
-Buscador estilo Airbnb (lista + mapa) de casas y condominios **en venta** en San Carlos,
+Buscador estilo Airbnb (lista + mapa) de casas, condominios y terrenos **en venta** en San Carlos,
 construido **solo con anuncios reales** extraídos de portales y brokers. No hay datos de
 ejemplo: si un anuncio no trae un dato, se guarda `null` y el sitio muestra "No especificado".
 
@@ -38,7 +38,7 @@ la última corrida exitosa de las demás (`data/raw/<fuente>.json`).
 | Duplicados | Entre portales: mismo número MLS; o la clave de la inmobiliaria (p. ej. `SACV-6082`) aparece en el otro anuncio; o precio ±1.5 % + foto idéntica (dHash sobre recorte central, tolera fotos recortadas por el portal); o precio + m² construcción + m² terreno + recámaras + zona. En un mismo portal solo con misma dirección + precio + m² + fotos. La evidencia queda en `dedupe_evidence`. |
 | Moneda | Se toma del anuncio. En el MLS, "MXN 3,000,000" = pesos y "$920,000" = moneda base que el portal declara en su listado (`setCurrencySymbol("USD")`); la base queda en `extra.moneda_fuente`. |
 | Ventas fraccionales | "Venta fraccional / tiempo compartido" (un mes al año) no es la compra de una casa: se excluye y se cuenta en el reporte. |
-| Tipo | Solo residencial: Casa, Departamento/Condominio, Townhouse/Villa. Terrenos y comerciales se cuentan pero se excluyen. |
+| Tipo | Casa, Departamento/Condominio, Townhouse/Villa y **Terreno** (lotes sin construcción: residenciales, campestres y comerciales). Locales, oficinas, bodegas y ranchos se cuentan pero se excluyen. En terrenos el precio por m² usa la superficie del terreno y recámaras/baños se muestran como "No aplica". |
 
 ## Fuentes
 

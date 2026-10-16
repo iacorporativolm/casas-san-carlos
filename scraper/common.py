@@ -323,6 +323,8 @@ def norm_type(raw: str | None) -> str | None:
 
 
 RESIDENTIAL_TYPES = {"Casa", "Departamento / Condominio", "Townhouse / Villa"}
+# Tipos que muestra el sitio: vivienda + terrenos (sin construcción)
+INCLUDED_TYPES = RESIDENTIAL_TYPES | {"Terreno"}
 
 
 def in_san_carlos_bbox(lat: float | None, lng: float | None) -> bool:

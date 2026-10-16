@@ -3,18 +3,21 @@
   "key": "remax",
   "source": "RE/MAX México",
   "site": "https://www.remax.com.mx/",
-  "started_at": "2026-10-15T19:05:31+00:00",
+  "started_at": "2026-10-16T00:33:52+00:00",
   "status": "ok",
-  "raw_count": 4,
+  "raw_count": 5,
   "errors": [],
   "notes": [
    "Casa: 4 en Guaymas (venta)",
    "Casa en Condominio: 0 en Guaymas (venta)",
-   "Departamento: 0 en Guaymas (venta)"
+   "Departamento: 0 en Guaymas (venta)",
+   "Terreno: 0 en Guaymas (venta)",
+   "Terreno - Comercial: 0 en Guaymas (venta)",
+   "Terreno - Industrial: 1 en Guaymas (venta)"
   ],
   "log": [],
-  "requests": 8,
-  "duration_s": 21.7
+  "requests": 12,
+  "duration_s": 33.1
  },
  "listings": [
   {
@@ -80,7 +83,7 @@
    "source": "RE/MAX México",
    "source_url": "https://www.remax.com.mx/propiedad/690830",
    "listing_id": "RCV690830-58",
-   "scraped_at": "2026-10-15T19:05:44+00:00",
+   "scraped_at": "2026-10-16T00:34:15+00:00",
    "extra": {
     "zona_remax": "San Carlos Nuevo Guaymas",
     "postal": "85506",
@@ -151,7 +154,7 @@
    "source": "RE/MAX México",
    "source_url": "https://www.remax.com.mx/propiedad/690831",
    "listing_id": "RCV690831-58",
-   "scraped_at": "2026-10-15T19:05:48+00:00",
+   "scraped_at": "2026-10-16T00:34:18+00:00",
    "extra": {
     "zona_remax": "San Carlos Nuevo Guaymas",
     "postal": "85506",
@@ -204,7 +207,7 @@
    "source": "RE/MAX México",
    "source_url": "https://www.remax.com.mx/propiedad/684218",
    "listing_id": "RCV684218-355",
-   "scraped_at": "2026-10-15T19:05:50+00:00",
+   "scraped_at": "2026-10-16T00:34:20+00:00",
    "_notes": [
     "coordenadas del anuncio (27.9257,-110.94) fuera de San Carlos; descartadas"
    ],
@@ -251,12 +254,49 @@
    "source": "RE/MAX México",
    "source_url": "https://www.remax.com.mx/propiedad/669536",
    "listing_id": "RCV669536-498",
-   "scraped_at": "2026-10-15T19:05:52+00:00",
+   "scraped_at": "2026-10-16T00:34:24+00:00",
    "_notes": [
     "coordenadas del anuncio (27.9345,-110.931) fuera de San Carlos; descartadas"
    ],
    "extra": {
     "zona_remax": "NORTE",
+    "postal": "85506",
+    "ciudad": "Guaymas"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Terreno Carretera Mexico 15 por el Libramiento en Empalme, Sonora",
+   "price": 99000000.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 550000.0,
+   "zone": "Bahía",
+   "address": "carretera mexico 15, Bahía, CP 85506",
+   "description": "Terreno de 550,000 m2 sobre carretera mexico 15 por el libramiento en Empalme,Sonora antes de la caseta de cobro de Guaymas, Sonora.",
+   "photos": [],
+   "contact": {
+    "agency": "RE/MAX Sun One Choice",
+    "agent": "Luis Alberto Osuna Gamboa",
+    "phone": "6699181800",
+    "email": "brogmaz@hotmail.com"
+   },
+   "lat": null,
+   "lng": null,
+   "coords_precision": null,
+   "published_at": "2024-09-23",
+   "source": "RE/MAX México",
+   "source_url": "https://www.remax.com.mx/propiedad/620125",
+   "listing_id": "ITV620125-494",
+   "scraped_at": "2026-10-16T00:34:26+00:00",
+   "_notes": [
+    "coordenadas del anuncio (27.9111,-110.909) fuera de San Carlos; descartadas"
+   ],
+   "extra": {
+    "zona_remax": "carretera mexico 15",
     "postal": "85506",
     "ciudad": "Guaymas"
    },

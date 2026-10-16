@@ -1,25 +1,25 @@
 {
- "run_started_at": "2026-10-15T20:15:53+00:00",
- "generated_at": "2026-10-15T20:25:07+00:00",
+ "run_started_at": "2026-10-16T00:33:52+00:00",
+ "generated_at": "2026-10-16T00:48:47+00:00",
  "totals": {
-  "raw_listings": 357,
-  "kept_after_filters": 288,
-  "final_after_dedupe": 242,
-  "coords_exacta": 192,
-  "coords_aproximada": 30,
-  "coords_null": 20,
-  "pct_coords_exacta": 79.3
+  "raw_listings": 454,
+  "kept_after_filters": 425,
+  "final_after_dedupe": 373,
+  "coords_exacta": 298,
+  "coords_aproximada": 39,
+  "coords_null": 36,
+  "pct_coords_exacta": 79.9
  },
  "dedupe": {
-  "input": 288,
-  "output": 242,
-  "merged_groups": 40
+  "input": 425,
+  "output": 373,
+  "merged_groups": 46
  },
  "geocode": {
-  "geocoded_osm": 23,
-  "geocoded_corpus": 21,
-  "not_found": 22,
-  "town_only_or_missing": 3,
+  "geocoded_osm": 25,
+  "geocoded_corpus": 28,
+  "not_found": 36,
+  "town_only_or_missing": 5,
   "errors": 0
  },
  "fx": {
@@ -27,76 +27,9 @@
   "rate_date": "2026-10-15",
   "provider": "Frankfurter (Banco Central Europeo)",
   "provider_url": "https://api.frankfurter.app/latest?from=USD&to=MXN",
-  "fetched_at": "2026-10-15T20:24:14+00:00"
+  "fetched_at": "2026-10-16T00:45:49+00:00"
  },
  "per_source": [
-  {
-   "key": "next_br",
-   "source": "NEXT Bienes Raíces",
-   "site": "https://www.nextbr.mx/",
-   "started_at": "2026-10-15T19:20:38+00:00",
-   "status": "ok",
-   "raw_count": 103,
-   "errors": [],
-   "notes": [
-    "Casas: 87 anuncios en venta (San Carlos)",
-    "Departamentos: 16 anuncios en venta (San Carlos)",
-    "Coordenada por defecto 27.96179,-111.0371 descartada en 2 anuncios",
-    "Coordenada por defecto 27.96912,-111.03748 descartada en 2 anuncios",
-    "Coordenada por defecto 27.96074,-111.04621 descartada en 5 anuncios",
-    "Coordenada por defecto 27.97136,-111.01234 descartada en 3 anuncios"
-   ],
-   "log": [],
-   "requests": 114,
-   "duration_s": 296.5,
-   "reused_from_previous_run": true,
-   "excluded_not_san_carlos": 0,
-   "excluded_type": 0,
-   "kept": 103,
-   "dropped_empty": 0
-  },
-  {
-   "key": "pentagono",
-   "source": "Pentágono Bienes Raíces",
-   "site": "https://pentagonobr.com/",
-   "started_at": "2026-10-15T19:05:31+00:00",
-   "status": "ok",
-   "raw_count": 19,
-   "errors": [],
-   "notes": [
-    "190 propiedades totales en la API; se filtran las de San Carlos/Guaymas"
-   ],
-   "log": [],
-   "requests": 11,
-   "duration_s": 27.7,
-   "reused_from_previous_run": true,
-   "excluded_not_san_carlos": 1,
-   "excluded_type": 10,
-   "kept": 8,
-   "dropped_empty": 0
-  },
-  {
-   "key": "remax",
-   "source": "RE/MAX México",
-   "site": "https://www.remax.com.mx/",
-   "started_at": "2026-10-15T19:05:31+00:00",
-   "status": "ok",
-   "raw_count": 4,
-   "errors": [],
-   "notes": [
-    "Casa: 4 en Guaymas (venta)",
-    "Casa en Condominio: 0 en Guaymas (venta)",
-    "Departamento: 0 en Guaymas (venta)"
-   ],
-   "log": [],
-   "requests": 8,
-   "duration_s": 21.7,
-   "reused_from_previous_run": true,
-   "excluded_not_san_carlos": 1,
-   "excluded_type": 0,
-   "kept": 3,
-   "dropped_empty": 0
-  },
   {
    "key": "coldwell_sancarlos",
    "source": "Coldwell Banker San Carlos",
@@ -116,8 +49,8 @@
    "duration_s": 40.3,
    "reused_from_previous_run": true,
    "excluded_not_san_carlos": 2,
-   "excluded_type": 8,
-   "kept": 29,
+   "excluded_type": 0,
+   "kept": 37,
    "dropped_empty": 0
   },
   {
@@ -137,74 +70,146 @@
    "duration_s": 287.7,
    "reused_from_previous_run": true,
    "excluded_not_san_carlos": 9,
-   "excluded_type": 27,
-   "kept": 66,
+   "excluded_type": 2,
+   "kept": 91,
    "dropped_empty": 0,
    "excluded_fractional": 6
   },
   {
-   "key": "century21",
-   "source": "CENTURY 21 México",
-   "site": "https://century21mexico.com/",
-   "started_at": "2026-10-15T19:05:31+00:00",
+   "key": "next_br",
+   "source": "NEXT Bienes Raíces",
+   "site": "https://www.nextbr.mx/",
+   "started_at": "2026-10-16T00:33:52+00:00",
    "status": "ok",
-   "raw_count": 6,
+   "raw_count": 170,
    "errors": [],
    "notes": [
-    "25 inmuebles en venta en el municipio de Guaymas"
+    "Casas: 81 anuncios en venta (San Carlos)",
+    "Departamentos: 16 anuncios en venta (San Carlos)",
+    "Terrenos Residenciales: 49 anuncios en venta (San Carlos)",
+    "Terrenos Campestres: 18 anuncios en venta (San Carlos)",
+    "Terrenos Comerciales: 6 anuncios en venta (San Carlos)",
+    "Terrenos: 0 anuncios en venta (San Carlos)",
+    "Coordenada por defecto 27.96179,-111.0371 descartada en 6 anuncios",
+    "Coordenada por defecto 27.96912,-111.03748 descartada en 2 anuncios",
+    "Coordenada por defecto 27.96074,-111.04621 descartada en 6 anuncios",
+    "Coordenada por defecto 27.97136,-111.01234 descartada en 3 anuncios",
+    "Coordenada por defecto 27.99328,-110.9959 descartada en 2 anuncios"
    ],
    "log": [],
-   "requests": 8,
-   "duration_s": 17.8,
-   "reused_from_previous_run": true,
+   "requests": 195,
+   "duration_s": 509.8,
    "excluded_not_san_carlos": 0,
    "excluded_type": 0,
-   "kept": 6,
+   "kept": 170,
    "dropped_empty": 0
   },
   {
-   "key": "lamudi",
-   "source": "Lamudi",
-   "site": "https://www.lamudi.com.mx/",
-   "started_at": "2026-10-15T19:30:41+00:00",
-   "status": "parcial_bloqueado",
-   "raw_count": 55,
-   "errors": [
-    "Desde 2026-10-15T19:33:41+00:00 el sitio respondió una página de 'Security verification' (captcha) en lugar de las fichas; 38 fichas no se pudieron leer y no se guardan. No se intentó evadir el reto."
-   ],
+   "key": "pentagono",
+   "source": "Pentágono Bienes Raíces",
+   "site": "https://pentagonobr.com/",
+   "started_at": "2026-10-16T00:33:52+00:00",
+   "status": "ok",
+   "raw_count": 19,
+   "errors": [],
    "notes": [
-    "casa: 93 anuncios en venta (San Carlos Nuevo Guaymas)",
-    "departamento: 0 anuncios en venta (San Carlos Nuevo Guaymas)",
-    "Se conservan las 55 fichas leídas completas antes del reto",
-    "Coordenada por defecto 27.96179,-111.0371 descartada en 6 anuncios",
-    "Coordenada por defecto 27.96074,-111.04621 descartada en 2 anuncios"
+    "190 propiedades totales en la API; se filtran las de San Carlos/Guaymas"
    ],
    "log": [],
-   "requests": 99,
-   "duration_s": 294.1,
-   "reused_from_previous_run": true,
-   "excluded_not_san_carlos": 0,
+   "requests": 22,
+   "duration_s": 54.8,
+   "excluded_not_san_carlos": 1,
    "excluded_type": 0,
-   "kept": 55,
+   "kept": 18,
+   "dropped_empty": 0
+  },
+  {
+   "key": "remax",
+   "source": "RE/MAX México",
+   "site": "https://www.remax.com.mx/",
+   "started_at": "2026-10-16T00:33:52+00:00",
+   "status": "ok",
+   "raw_count": 5,
+   "errors": [],
+   "notes": [
+    "Casa: 4 en Guaymas (venta)",
+    "Casa en Condominio: 0 en Guaymas (venta)",
+    "Departamento: 0 en Guaymas (venta)",
+    "Terreno: 0 en Guaymas (venta)",
+    "Terreno - Comercial: 0 en Guaymas (venta)",
+    "Terreno - Industrial: 1 en Guaymas (venta)"
+   ],
+   "log": [],
+   "requests": 12,
+   "duration_s": 33.1,
+   "excluded_not_san_carlos": 2,
+   "excluded_type": 0,
+   "kept": 3,
    "dropped_empty": 0
   },
   {
    "key": "remax_firstchoice",
    "source": "RE/MAX First Choice San Carlos",
    "site": "https://remax-firstchoice-sancarlosmexico.com/",
-   "started_at": "2026-10-15T20:15:53+00:00",
+   "started_at": "2026-10-16T00:33:52+00:00",
    "status": "ok",
-   "raw_count": 23,
+   "raw_count": 33,
    "errors": [],
    "notes": [
     "52 tarjetas en la búsqueda"
    ],
-   "log": [],
-   "requests": 25,
-   "duration_s": 499.8,
-   "excluded_not_san_carlos": 5,
+   "log": [
+    "error de red https://remax-firstchoice-sancarlosmexico.com/en/properties/265-265-dolphin-bay/: HTTPSConnectionPool(host='remax-firstchoice-sancarlosmexico.com', port=443): Read timed out. (read timeout=30); reintento"
+   ],
+   "requests": 35,
+   "duration_s": 715.2,
+   "excluded_not_san_carlos": 6,
    "excluded_type": 0,
-   "kept": 18,
+   "kept": 27,
+   "dropped_empty": 0
+  },
+  {
+   "key": "century21",
+   "source": "CENTURY 21 México",
+   "site": "https://century21mexico.com/",
+   "started_at": "2026-10-16T00:33:52+00:00",
+   "status": "ok",
+   "raw_count": 25,
+   "errors": [],
+   "notes": [
+    "25 inmuebles en venta en el municipio de Guaymas"
+   ],
+   "log": [],
+   "requests": 27,
+   "duration_s": 65.4,
+   "excluded_not_san_carlos": 1,
+   "excluded_type": 0,
+   "kept": 24,
+   "dropped_empty": 0
+  },
+  {
+   "key": "lamudi",
+   "source": "Lamudi",
+   "site": "https://www.lamudi.com.mx/",
+   "started_at": "2026-10-16T00:33:52+00:00",
+   "status": "parcial_bloqueado",
+   "raw_count": 55,
+   "errors": [
+    "Verificación humana a partir de https://www.lamudi.com.mx/detalle/41032-73-bd5f93deac12-af94-197f0b5-9cfc-7def tras 53 fichas leídas: HTTP 200 / reto anti-bot en https://www.lamudi.com.mx/detalle/41032-73-bd5f93deac12-af94-197f0b5-9cfc-7def"
+   ],
+   "notes": [
+    "casa: 93 anuncios en venta (San Carlos Nuevo Guaymas)",
+    "El sitio empezó a pedir verificación humana; se conservan solo las fichas leídas antes",
+    "Se conservan 2 anuncios de la corrida anterior que hoy no se pudieron releer (con su scraped_at original)",
+    "Coordenada por defecto 27.96179,-111.0371 descartada en 6 anuncios",
+    "Coordenada por defecto 27.96074,-111.04621 descartada en 2 anuncios"
+   ],
+   "log": [],
+   "requests": 59,
+   "duration_s": 174.1,
+   "excluded_not_san_carlos": 0,
+   "excluded_type": 0,
+   "kept": 55,
    "dropped_empty": 0
   },
   {
@@ -335,6 +340,8 @@
   }
  ],
  "pipeline_log": [
-  "dHash falló para https://www.nextbr.mx/uploads/listings/68d1d8059013a.jpeg: 404 Client Error: Not Found for url: https://www.nextbr.mx/uploads/listings/68d1d8059013a.jpeg"
+  "dHash falló para https://www.nextbr.mx/uploads/listings/68d1d8059013a.jpeg: 404 Client Error: Not Found for url: https://www.nextbr.mx/uploads/listings/68d1d8059013a.jpeg",
+  "dHash falló para https://www.nextbr.mx/uploads/listings/6a1b357501bce.png: 404 Client Error: Not Found for url: https://www.nextbr.mx/uploads/listings/6a1b357501bce.png",
+  "dHash falló para https://www.nextbr.mx/uploads/listings/6aa2d759b8af8.jpeg: 404 Client Error: Not Found for url: https://www.nextbr.mx/uploads/listings/6aa2d759b8af8.jpeg"
  ]
 }

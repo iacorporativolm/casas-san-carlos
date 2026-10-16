@@ -23,7 +23,8 @@ DELAY = 3.0
 LAST_ERRORS: list[str] = []
 
 GUAYMAS_CITY_ID = "12065"
-RESIDENTIAL_TIPOS = {"1": "Casa", "2": "Casa en Condominio", "3": "Departamento"}
+RESIDENTIAL_TIPOS = {"1": "Casa", "2": "Casa en Condominio", "3": "Departamento",
+                     "4": "Terreno", "10": "Terreno - Comercial", "23": "Terreno - Industrial"}
 XHR = {"X-Requested-With": "XMLHttpRequest"}
 
 

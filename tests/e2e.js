@@ -72,6 +72,22 @@ const check = (name, ok, info = '') => { results.push({ name, ok: !!ok, info });
   await page.waitForTimeout(300);
   check('Limpiar filtros restaura el total', (await page.$$eval('.card', (c) => c.length)) === total);
 
+  // Filtro tipo: Terreno
+  await page.click('.pop[data-pop="type"] .pill');
+  const landBox = await page.$('[data-set="types"][value="Terreno"]');
+  if (landBox) {
+    await landBox.check();
+    await page.waitForTimeout(300);
+    const specs = await page.$$eval('.card .specs', (s) => s.map((x) => x.textContent.trim()));
+    check('Filtro tipo Terreno', specs.length > 0 && specs.every((t) => t.startsWith('Terreno')), `${specs.length} terrenos`);
+    const pins = await page.$$eval('.price-pin.land, .cluster-pin', (p) => p.length);
+    check('Pines de terreno en el mapa', pins > 0);
+    await page.click('[data-clear]');
+  } else {
+    check('Filtro tipo Terreno', false, 'no hay opción Terreno');
+  }
+  await page.waitForTimeout(200);
+
   // Orden precio ascendente
   await page.selectOption('#sort', 'price_asc');
   await page.waitForTimeout(300);

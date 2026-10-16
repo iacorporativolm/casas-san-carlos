@@ -3,16 +3,18 @@
   "key": "remax_firstchoice",
   "source": "RE/MAX First Choice San Carlos",
   "site": "https://remax-firstchoice-sancarlosmexico.com/",
-  "started_at": "2026-10-15T20:15:53+00:00",
+  "started_at": "2026-10-16T00:33:52+00:00",
   "status": "ok",
-  "raw_count": 23,
+  "raw_count": 33,
   "errors": [],
   "notes": [
    "52 tarjetas en la búsqueda"
   ],
-  "log": [],
-  "requests": 25,
-  "duration_s": 499.8
+  "log": [
+   "error de red https://remax-firstchoice-sancarlosmexico.com/en/properties/265-265-dolphin-bay/: HTTPSConnectionPool(host='remax-firstchoice-sancarlosmexico.com', port=443): Read timed out. (read timeout=30); reintento"
+  ],
+  "requests": 35,
+  "duration_s": 715.2
  },
  "listings": [
   {
@@ -79,7 +81,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/1008-calle-l-los-ranchitos-san-carlos-son/",
    "listing_id": "12776",
-   "scraped_at": "2026-10-15T20:16:34+00:00",
+   "scraped_at": "2026-10-16T00:34:33+00:00",
    "extra": {
     "mls_san_carlos": "12776",
     "precio_publicado": "$420,000 USD"
@@ -154,7 +156,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/12-villas-del-sol-san-carlos-son-mexico/",
    "listing_id": "12381",
-   "scraped_at": "2026-10-15T20:16:54+00:00",
+   "scraped_at": "2026-10-16T00:34:53+00:00",
    "extra": {
     "mls_san_carlos": "12381",
     "precio_publicado": "$375,000 USD"
@@ -213,7 +215,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/113-huiviris-villas-tetakawi-san-carlos-sonora/",
    "listing_id": "11458",
-   "scraped_at": "2026-10-15T20:17:14+00:00",
+   "scraped_at": "2026-10-16T00:35:13+00:00",
    "extra": {
     "mls_san_carlos": "11458",
     "precio_publicado": "$3,500,000 MXN"
@@ -272,7 +274,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/125-5-agustin-garcia-lopez-blvd/",
    "listing_id": "12663",
-   "scraped_at": "2026-10-15T20:17:34+00:00",
+   "scraped_at": "2026-10-16T00:35:33+00:00",
    "_notes": [
     "coordenadas del anuncio (27.929100199742,-110.92320623647) fuera de San Carlos; descartadas"
    ],
@@ -281,6 +283,122 @@
     "precio_publicado": "$11,999,999 MXN"
    },
    "_in_san_carlos_search": false
+  },
+  {
+   "title": "175 Paseo Las Almejas",
+   "price": 190000.0,
+   "currency": "USD",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": null,
+   "zone": "Caracol Tourist",
+   "address": "175 Paseo Las Almejas, San Carlos",
+   "description": "A completely flat, fenced-in lot of 540 m² located in Caracol Turístico, one of the most established and high-value residential areas in San Carlos. Its excellent location allows for easy walking access to the marina, restaurants, shops, and downtown San Carlos, offering the convenience of having everything nearby without relying on a car. The wide frontage and level topography make it easy to design and build your ideal home, whether for full-time living, weekend getaways, and family vacations, or as a long-term investment. The lot offers privacy, easy access, and great potential in a market where well-located properties are becoming increasingly scarce. An excellent opportunity to build today and enjoy San Carlos for many years to come.",
+   "photos": [
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_15.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_16.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_17.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_18.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_19.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_20.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_21.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_22.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_23.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_24.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_14.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_13.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_3.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_4.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_5.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_6.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_7.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_8.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_9.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_10.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_11.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO_12.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/07/LOT-FOR-SALE-175-PASEO-ALMEJAS-CARACOL-SAN-CARLOS-SONORA-MEXICO.webp"
+   ],
+   "contact": {
+    "agency": "RE/MAX First Choice Realty San Carlos",
+    "agent": null,
+    "phone": "+52 622-226-1800",
+    "email": null
+   },
+   "lat": 27.946994324163,
+   "lng": -111.05145032765,
+   "coords_precision": "exacta",
+   "published_at": null,
+   "source": "RE/MAX First Choice San Carlos",
+   "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/175-paseo-las-almejas/",
+   "listing_id": "12755",
+   "scraped_at": "2026-10-16T00:35:53+00:00",
+   "extra": {
+    "mls_san_carlos": "12755",
+    "precio_publicado": "$190,000 USD"
+   },
+   "_in_san_carlos_search": true
+  },
+  {
+   "title": "17a-17c Blvd Perif Rafael Jesus",
+   "price": 1000055.0,
+   "currency": "USD",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 10000.0,
+   "zone": "El Bavizo",
+   "address": "17a-17c Blvd Perif Rafael Jesus, San Carlos",
+   "description": "Property for development Two adjoining lots offered for sale as one parcel totaling 10,000.55 square meters. Whether your vision is townhouses, a condo tower or retail, this lot is worth considering. It is located in a thriving area of San Carlos with lots of development around it. Less than a kilometer from the main boulevard into San Carlos and therefore within walking distance to the beach.",
+   "photos": [
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0770.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0763.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0761.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0757.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0750.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0743.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0730.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0751.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220745.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220741.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220739.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220738.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220737.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220735.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220732.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220726.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220725.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220723.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220722.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220721.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220719.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220717.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220705.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220704.webp"
+   ],
+   "contact": {
+    "agency": "RE/MAX First Choice Realty San Carlos",
+    "agent": null,
+    "phone": "+52 622-226-1800",
+    "email": null
+   },
+   "lat": 27.969601027353,
+   "lng": -111.01260781288,
+   "coords_precision": "exacta",
+   "published_at": null,
+   "source": "RE/MAX First Choice San Carlos",
+   "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/17a-17c-blvd-perif-rafael-jesus/",
+   "listing_id": "12061",
+   "scraped_at": "2026-10-16T00:36:13+00:00",
+   "extra": {
+    "mls_san_carlos": "12061",
+    "precio_publicado": "$1,000,055 USD"
+   },
+   "_in_san_carlos_search": true
   },
   {
    "title": "2 Villa Hermosa",
@@ -360,7 +478,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/2-villa-hermosa/",
    "listing_id": "12680",
-   "scraped_at": "2026-10-15T20:17:54+00:00",
+   "scraped_at": "2026-10-16T00:36:33+00:00",
    "extra": {
     "mls_san_carlos": "12680",
     "precio_publicado": "$844,000 USD"
@@ -425,10 +543,68 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/20-creston-sector-mangroves-san-carlos-sonora/",
    "listing_id": "11743",
-   "scraped_at": "2026-10-15T20:18:14+00:00",
+   "scraped_at": "2026-10-16T00:36:53+00:00",
    "extra": {
     "mls_san_carlos": "11743",
     "precio_publicado": "$769,000 USD"
+   },
+   "_in_san_carlos_search": true
+  },
+  {
+   "title": "201-202 Oregon Street",
+   "price": 89000.0,
+   "currency": "USD",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 283.0,
+   "zone": "Tecalai",
+   "address": "201-202 Calle Oregon, San Carlos, CP 85506",
+   "description": "An affordable way to have your own space in San Carlos and become part of an established community. This 265 m² consolidated lot in Tecalai is fully equipped for living in a motorhome, with a substantial covered structure that provides shade and protection, ample paved areas, storage, and established utilities. It includes a 1995 Travel Supreme fifth-wheel RV, currently used as a permanent residence, with all systems in working order. Tecalai has always attracted those seeking both their own space and a sense of community. Residents enjoy an outdoor pool, pickleball court, library, dog park, and community center—all within a gated, secure environment. There are opportunities to meet people and participate in community activities while enjoying the privacy of your own home. The established site and the motorhome make the property immediately move-in ready, while ownership of the 265 m² lot provides flexibility for a future owner to make changes or improvements over time.",
+   "photos": [
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_15.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_16.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_17.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_18.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_19.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_20.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_21.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_22.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_23.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_24.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_14.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_13.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_3.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_4.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_5.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_6.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_7.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_8.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_9.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_10.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_11.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-_12.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2026/09/LOT-FOR-SALE-201-TECALAI-SAN-CARLOS-SONORA-.webp"
+   ],
+   "contact": {
+    "agency": "RE/MAX First Choice Realty San Carlos",
+    "agent": null,
+    "phone": "+52 622-226-1800",
+    "email": null
+   },
+   "lat": 27.965708196483,
+   "lng": -111.02257174799,
+   "coords_precision": "exacta",
+   "published_at": null,
+   "source": "RE/MAX First Choice San Carlos",
+   "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/201-202-oregon-street/",
+   "listing_id": "12788",
+   "scraped_at": "2026-10-16T00:37:13+00:00",
+   "extra": {
+    "mls_san_carlos": "12788",
+    "precio_publicado": "$89,000 USD"
    },
    "_in_san_carlos_search": true
   },
@@ -501,7 +677,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/221-221-dolphin-bay/",
    "listing_id": "12775",
-   "scraped_at": "2026-10-15T20:18:34+00:00",
+   "scraped_at": "2026-10-16T00:37:33+00:00",
    "extra": {
     "mls_san_carlos": "12775",
     "precio_publicado": "$449,000 USD"
@@ -568,7 +744,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/265-265-dolphin-bay/",
    "listing_id": "12792",
-   "scraped_at": "2026-10-15T20:18:54+00:00",
+   "scraped_at": "2026-10-16T00:38:28+00:00",
    "extra": {
     "mls_san_carlos": "12792",
     "precio_publicado": "$559,000 USD"
@@ -631,7 +807,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/269-269-bahia-delfin/",
    "listing_id": "12254",
-   "scraped_at": "2026-10-15T20:19:14+00:00",
+   "scraped_at": "2026-10-16T00:38:48+00:00",
    "extra": {
     "mls_san_carlos": "12254",
     "precio_publicado": "$489,000 USD"
@@ -705,7 +881,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/2c-villa-bahia-i/",
    "listing_id": "12760",
-   "scraped_at": "2026-10-15T20:19:34+00:00",
+   "scraped_at": "2026-10-16T00:39:08+00:00",
    "extra": {
     "mls_san_carlos": "12760",
     "precio_publicado": "$229,000 USD"
@@ -777,7 +953,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/2d-condo-villa-bahia-ii/",
    "listing_id": "12765",
-   "scraped_at": "2026-10-15T20:19:53+00:00",
+   "scraped_at": "2026-10-16T00:39:28+00:00",
    "extra": {
     "mls_san_carlos": "12765",
     "precio_publicado": "$259,000 USD"
@@ -836,7 +1012,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/308-308-callejon-vicam/",
    "listing_id": "12323",
-   "scraped_at": "2026-10-15T20:20:14+00:00",
+   "scraped_at": "2026-10-16T00:39:48+00:00",
    "extra": {
     "mls_san_carlos": "12323",
     "precio_publicado": "$550,000 USD"
@@ -895,7 +1071,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/334-bajada-las-cabrillas-caracol-penisnusla-san-carlos-son-mexico/",
    "listing_id": "12587",
-   "scraped_at": "2026-10-15T20:20:34+00:00",
+   "scraped_at": "2026-10-16T00:40:08+00:00",
    "extra": {
     "mls_san_carlos": "12587",
     "precio_publicado": "$470,000 USD"
@@ -961,7 +1137,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/38-royal-golf-club/",
    "listing_id": "12612",
-   "scraped_at": "2026-10-15T20:20:54+00:00",
+   "scraped_at": "2026-10-16T00:40:28+00:00",
    "extra": {
     "mls_san_carlos": "12612",
     "precio_publicado": "$327,999 USD"
@@ -1022,10 +1198,62 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/41-paseo-dichoso-villahermosa-san-carlos-son-mexico/",
    "listing_id": null,
-   "scraped_at": "2026-10-15T20:21:14+00:00",
+   "scraped_at": "2026-10-16T00:40:48+00:00",
    "extra": {
     "mls_san_carlos": null,
     "precio_publicado": "$315,000 USD"
+   },
+   "_in_san_carlos_search": true
+  },
+  {
+   "title": "5 Algodones Residential",
+   "price": 3900000.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 574.0,
+   "zone": "Algodones",
+   "address": "5 Algodones Residencial, San Carlos",
+   "description": "Views Lot with expansive views in the beautiful Algodones Residential community. Private and secure beachfront community in San Carlos. This large lot with panoramic views of the mountains and the Sea of Cortez is perfect for building your primary residence or second home. The community features a community pool and beach access. Create those special family memories.",
+   "photos": [
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0675-1.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0727-2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0726-2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0717-2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0692-2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0690-2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0689-2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0689-1.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0688-2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0688-1.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0687-2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0687-1.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0685-2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0685-1.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0681-2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0681-1.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0675-2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/DJI_0728-2.webp"
+   ],
+   "contact": {
+    "agency": "RE/MAX First Choice Realty San Carlos",
+    "agent": null,
+    "phone": "+52 622-226-1800",
+    "email": null
+   },
+   "lat": 27.9558125,
+   "lng": -111.0931875,
+   "coords_precision": "exacta",
+   "published_at": null,
+   "source": "RE/MAX First Choice San Carlos",
+   "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/5-algodones-residencial/",
+   "listing_id": "11565",
+   "scraped_at": "2026-10-16T00:41:08+00:00",
+   "extra": {
+    "mls_san_carlos": "11565",
+    "precio_publicado": "$3,900,000 MXN"
    },
    "_in_san_carlos_search": true
   },
@@ -1086,10 +1314,69 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/609611-small-houses/",
    "listing_id": "12766",
-   "scraped_at": "2026-10-15T20:21:34+00:00",
+   "scraped_at": "2026-10-16T00:41:28+00:00",
    "extra": {
     "mls_san_carlos": "12766",
     "precio_publicado": "$235,000 USD"
+   },
+   "_in_san_carlos_search": true
+  },
+  {
+   "title": "91 BELLA ESPERANZA BLVD",
+   "price": 24000.0,
+   "currency": "USD",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": null,
+   "zone": "Bella Esperanza",
+   "address": "91 Blvd. Bella Esperanza, San Carlos",
+   "description": "Excellent opportunity to acquire an affordable off-grid lot on the quiet outskirts of San Carlos. This 1,500 m² plot offers level topography, access via a dirt road, and sweeping views of the Sonoran desert and the iconic Tetakawi hill. With no connected utilities and no HOA restrictions, the property offers complete flexibility for a self-sustainable build, eco-friendly project, or long-term investment. Located just minutes from beaches, marinas, restaurants, and outdoor activities, this lot combines privacy and convenience. An excellent option for those seeking space, freedom, and value in San Carlos.",
+   "photos": [
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_3.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_4.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_5.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_6.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_7.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_8.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_9.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_10.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_11.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_12.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_13.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_14.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_15.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_16.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_17.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_18.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_19.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_20.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_21.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_22.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_23.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_24.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/11/91-BELLA-ESPERANZA-LOT-FOR-SALE-SAN-CARLOS-MEXICO_25.webp"
+   ],
+   "contact": {
+    "agency": "RE/MAX First Choice Realty San Carlos",
+    "agent": null,
+    "phone": "+52 622-226-1800",
+    "email": null
+   },
+   "lat": 27.99286976636,
+   "lng": -111.04631308345,
+   "coords_precision": "exacta",
+   "published_at": null,
+   "source": "RE/MAX First Choice San Carlos",
+   "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/91-bella-esperanza-boulevard/",
+   "listing_id": "12551",
+   "scraped_at": "2026-10-16T00:41:48+00:00",
+   "extra": {
+    "mls_san_carlos": "12551",
+    "precio_publicado": "$24,000 USD"
    },
    "_in_san_carlos_search": true
   },
@@ -1155,7 +1442,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/99-club-real-royal-golf-club-street/",
    "listing_id": "12687",
-   "scraped_at": "2026-10-15T20:21:54+00:00",
+   "scraped_at": "2026-10-16T00:42:08+00:00",
    "extra": {
     "mls_san_carlos": "12687",
     "precio_publicado": "$350,000 USD"
@@ -1221,7 +1508,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/bahia-delfin-201-condo/",
    "listing_id": "12036",
-   "scraped_at": "2026-10-15T20:22:14+00:00",
+   "scraped_at": "2026-10-16T00:42:28+00:00",
    "extra": {
     "mls_san_carlos": "12036",
     "precio_publicado": "$359,000 USD"
@@ -1275,7 +1562,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/blvd-sanchez-taboada-768-guaymas-son-mexico/",
    "listing_id": "12651",
-   "scraped_at": "2026-10-15T20:22:34+00:00",
+   "scraped_at": "2026-10-16T00:42:48+00:00",
    "_notes": [
     "coordenadas del anuncio (27.911767320332,-110.89254978508) fuera de San Carlos; descartadas"
    ],
@@ -1284,6 +1571,91 @@
     "precio_publicado": "$6,500,000 MXN"
    },
    "_in_san_carlos_search": false
+  },
+  {
+   "title": "Country Lots Joyas del Desierto San Carlos Son Mexico",
+   "price": 20.0,
+   "currency": "USD",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": null,
+   "zone": "Bella Esperanza",
+   "address": "Country Lots Joyas Del Desierto San Carlos Son Mexico, Bella Esperanza",
+   "description": "Country Lots\r\n\r\nA jewel in the desert, as its name suggests, nestled in a small valley on the south side of Nacapule, we find this country subdivision, where views of the mountains and the sea are an everyday occurrence. Excellent sized lots with great potential and a good investment option. Your own piece of paradise, where you can build a house or put in a terrace and enjoy. With new technologies, you can bring in solar power, although there is a project to bring in power through CFE poles. With a cistern and a septic tank, you will have everything you need to enjoy a country home or simply live just 15 minutes from downtown San Carlos. There are several options to choose from. The lots are unique and ready to be deeded.",
+   "photos": [
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/1-3.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/1-4.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/1-12.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/1-15.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/1-17-1.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/FOTO-CON-LOTES-MARCADOS.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/View-8.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/01/View-9.webp"
+   ],
+   "contact": {
+    "agency": "RE/MAX First Choice Realty San Carlos",
+    "agent": null,
+    "phone": "+52 622-226-1800",
+    "email": null
+   },
+   "lat": 27.995514662839,
+   "lng": -111.06749613061,
+   "coords_precision": "exacta",
+   "published_at": null,
+   "source": "RE/MAX First Choice San Carlos",
+   "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/country-lots-joyas-del-desierto-san-carlos-son-mexico/",
+   "listing_id": "11450",
+   "scraped_at": "2026-10-16T00:43:08+00:00",
+   "extra": {
+    "mls_san_carlos": "11450",
+    "precio_publicado": "$20 USD per M²"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Encanto Canyon L1M1 Bahia El Encanto San Carlos Son Mexico",
+   "price": 128400.0,
+   "currency": "USD",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 428.0,
+   "zone": "Bahia El Encanto",
+   "address": "Bahia el Encanto L1M1, San Carlos, CP 85506",
+   "description": "One of a kind! Residential lot in one of the most exclusive subdivisions in San Carlos. It has controlled access, private beach and unparalleled ocean views. Are you looking to build? or just invest with high appreciation? this is your opportunity.",
+   "photos": [
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/06/JPG.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/06/Snapshot_13.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/06/Snapshot_14.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/06/Snapshot_15.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/06/Snapshot_18.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/06/Snapshot_19.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/06/Snapshot_21.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/06/Snapshot_22.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/06/Snapshot_23.webp"
+   ],
+   "contact": {
+    "agency": "RE/MAX First Choice Realty San Carlos",
+    "agent": null,
+    "phone": "+52 622-226-1800",
+    "email": null
+   },
+   "lat": 27.943498403693,
+   "lng": -111.07176022655,
+   "coords_precision": "exacta",
+   "published_at": null,
+   "source": "RE/MAX First Choice San Carlos",
+   "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/encanto-canyon-l1m1-bahia-el-encanto-san-carlos-son-mexico/",
+   "listing_id": "12171",
+   "scraped_at": "2026-10-16T00:43:31+00:00",
+   "extra": {
+    "mls_san_carlos": "12171",
+    "precio_publicado": "$128,400 USD"
+   },
+   "_in_san_carlos_search": true
   },
   {
    "title": "Lot 1 and 28 San Jose de Guaymas",
@@ -1335,7 +1707,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/lots-1-and-28-san-jose-de-guaymas/",
    "listing_id": null,
-   "scraped_at": "2026-10-15T20:22:54+00:00",
+   "scraped_at": "2026-10-16T00:43:48+00:00",
    "_notes": [
     "coordenadas del anuncio (27.971088596442,-110.9121883473) fuera de San Carlos; descartadas"
    ],
@@ -1344,6 +1716,46 @@
     "precio_publicado": "$2,500,000 MXN"
    },
    "_in_san_carlos_search": false
+  },
+  {
+   "title": "LOT 4 M 5 Villa Bemela San Carlos Mexico",
+   "price": 46950.0,
+   "currency": "USD",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 1565.0,
+   "zone": "Villa Bemela Campestre",
+   "address": "Lote 4 Manzana 5 Villa Bemela San Carlos Sonora Mexico, San Carlos, CP 85506",
+   "description": "Country Land Country Land with access to services, in gated community with controlled access. Close to Blv Tetakawi and the new San Jose Hospital.",
+   "photos": [
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/05/Imagen-lote-4-Manzana-5.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/05/Camino-de-entrada.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/05/Entrada-carretera.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/05/Poligono.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/05/Vista-al-sur-poligono.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/05/Vista-sur-2.webp"
+   ],
+   "contact": {
+    "agency": "RE/MAX First Choice Realty San Carlos",
+    "agent": null,
+    "phone": "+52 622-226-1800",
+    "email": null
+   },
+   "lat": 27.988200003849,
+   "lng": -110.96478439877,
+   "coords_precision": "exacta",
+   "published_at": null,
+   "source": "RE/MAX First Choice San Carlos",
+   "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/lot-4-m-5-villa-bemela-san-carlos-mexico/",
+   "listing_id": "12166",
+   "scraped_at": "2026-10-16T00:44:08+00:00",
+   "extra": {
+    "mls_san_carlos": "12166",
+    "precio_publicado": "$46,950 USD"
+   },
+   "_in_san_carlos_search": true
   },
   {
    "title": "Lots 4 and 25 San Jose de Guaymas",
@@ -1388,7 +1800,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/land-san-jose-lot-san-jose-investment-guaymas-opportunity-lot/",
    "listing_id": null,
-   "scraped_at": "2026-10-15T20:23:14+00:00",
+   "scraped_at": "2026-10-16T00:44:28+00:00",
    "_notes": [
     "coordenadas del anuncio (27.971495417446,-110.91248530486) fuera de San Carlos; descartadas"
    ],
@@ -1397,6 +1809,127 @@
     "precio_publicado": "$2,000,000 MXN"
    },
    "_in_san_carlos_search": false
+  },
+  {
+   "title": "Commercial Lot Blvd Garcia Lopez Guaymas Sonora Mexico",
+   "price": 25955080.0,
+   "currency": "MXN",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 4791.0,
+   "zone": "Bahia",
+   "address": "Blvd Garcia López enfrente de McDonalds, Guaymas, CP 85456",
+   "description": "Commercial land in one of the best commercial locations in Guaymas, on Blvd. García López, guaranteeing maximum visibility and access. Privileged location in an area of growth and high capital gain, ideal for commercial developments, plazas, franchises, or high-impact businesses. Land areas: 2,800 m² 1,800.26 m² 191.35 m² Total: 4,791.61 m² Outstanding features: Excellent vehicular and pedestrian flow. Proximity to shops, banks, and residential areas. Great potential for investors and developers./Commercial land in one of the best commercial locations in Guaymas, on the line of Blvd. García López, guaranteeing maximum visibility and access. Privileged location in an area of growth and high capital gain, ideal for commercial developments, plazas, franchises or high-impact businesses. Land areas: 2,800 m² 1,800.26 m² 191.35 m² Total: 4,791.61 m² Outstanding features: Excellent vehicular and pedestrian flow. Proximity to shops, banks, and residential areas. Great potential for investors and developers.",
+   "photos": [
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/03/Calzada2.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/03/Calzada3.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/03/Calzada6.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/03/Calzada7.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/03/Lotes-Garcia-lopez.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2025/03/MARCADOS-LOTES.webp"
+   ],
+   "contact": {
+    "agency": "RE/MAX First Choice Realty San Carlos",
+    "agent": null,
+    "phone": "+52 622-226-1800",
+    "email": null
+   },
+   "lat": null,
+   "lng": null,
+   "coords_precision": null,
+   "published_at": null,
+   "source": "RE/MAX First Choice San Carlos",
+   "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/commercial-lot-blvd-garcia-lopez-guaymas-sonora-mexico/",
+   "listing_id": "12369",
+   "scraped_at": "2026-10-16T00:44:48+00:00",
+   "_notes": [
+    "coordenadas del anuncio (27.927175517322,-110.92133760452) fuera de San Carlos; descartadas"
+   ],
+   "extra": {
+    "mls_san_carlos": "12369",
+    "precio_publicado": "$25,955,080 MXN"
+   },
+   "_in_san_carlos_search": false
+  },
+  {
+   "title": "Portion A Blvd Perif Rafael Jesus",
+   "price": 1250000.0,
+   "currency": "USD",
+   "property_type": "Terreno",
+   "bedrooms": null,
+   "bathrooms": null,
+   "construction_m2": null,
+   "land_m2": 12500.0,
+   "zone": "El Bavizo",
+   "address": "Porcion A Blvd Perif Rafael Jesus, San Carlos",
+   "description": "Developable land for sale! One of three investment properties that this company is offering for sale. This corner lot has easy access to the main boulevard of San Carlos. There are several new developments nearby, all of which are nearly sold out or completely sold out. This property is an ideal location for a variety of potential development possibilities depending on your vision; retail, condos or single family homes.",
+   "photos": [
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0694.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0660.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0661.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0662.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0663.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0672.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0674.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0676.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0677.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0678.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0679.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0681.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0688.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0691.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0693.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0696.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/DJI_0771.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220607.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220627.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220629.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220630.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220631.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220635.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220637.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220638.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220639.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220641.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220643.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220646.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220650.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220655.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220657.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220660.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220661.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220662.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220664.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220665.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220669.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220672.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220676.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220678.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220679.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220683.webp",
+    "https://remax-firstchoice-sancarlosmexico.com/wp-content/uploads/2024/03/P9220685.webp"
+   ],
+   "contact": {
+    "agency": "RE/MAX First Choice Realty San Carlos",
+    "agent": null,
+    "phone": "+52 622-226-1800",
+    "email": null
+   },
+   "lat": 27.969924066444,
+   "lng": -111.01289761012,
+   "coords_precision": "exacta",
+   "published_at": null,
+   "source": "RE/MAX First Choice San Carlos",
+   "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/portion-a-blvd-perif-rafael-jesus/",
+   "listing_id": "12059",
+   "scraped_at": "2026-10-16T00:45:09+00:00",
+   "extra": {
+    "mls_san_carlos": "12059",
+    "precio_publicado": "$1,250,000 USD"
+   },
+   "_in_san_carlos_search": true
   },
   {
    "title": "HIDDEN VILLA",
@@ -1533,7 +2066,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/335-las-cabrillas-street/",
    "listing_id": "12743",
-   "scraped_at": "2026-10-15T20:23:34+00:00",
+   "scraped_at": "2026-10-16T00:45:28+00:00",
    "extra": {
     "mls_san_carlos": "12743",
     "precio_publicado": "$2,300,000 USD"
@@ -1588,7 +2121,7 @@
    "source": "RE/MAX First Choice San Carlos",
    "source_url": "https://remax-firstchoice-sancarlosmexico.com/en/properties/yecora-cabin/",
    "listing_id": null,
-   "scraped_at": "2026-10-15T20:24:13+00:00",
+   "scraped_at": "2026-10-16T00:45:48+00:00",
    "_notes": [
     "coordenadas del anuncio (28.361067404114,-109.00305891177) fuera de San Carlos; descartadas"
    ],

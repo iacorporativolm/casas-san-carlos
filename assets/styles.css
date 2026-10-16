@@ -14,6 +14,8 @@
   --pin-active-ink: #ffffff;
   --approx: #8a5a00;
   --approx-fill: rgba(214, 150, 20, 0.14);
+  --land-bg: #e6f2e2;
+  --land-ink: #2c5a23;
   --shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.06);
   --radius: 14px;
@@ -37,6 +39,8 @@
     --pin-active-ink: #ffffff;
     --approx: #f0b44a;
     --approx-fill: rgba(240, 180, 74, 0.16);
+    --land-bg: #2a3a26;
+    --land-ink: #cfe8c6;
     --shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
     color-scheme: dark;
@@ -46,6 +50,7 @@
   --bg: #121212; --surface: #1c1c1c; --muted-bg: #222222; --text: #f2f2f2; --text-2: #a8a8a8;
   --line: #2f2f2f; --line-strong: #474747; --pin-bg: #f2f2f2; --pin-ink: #121212;
   --pin-active-bg: #e0484b; --pin-active-ink: #fff; --approx: #f0b44a; --approx-fill: rgba(240,180,74,.16);
+  --land-bg: #2a3a26; --land-ink: #cfe8c6;
   --shadow: 0 6px 20px rgba(0,0,0,.5); --shadow-sm: 0 1px 2px rgba(0,0,0,.4); color-scheme: dark;
 }
 
@@ -206,6 +211,8 @@ a { color: inherit; }
   transition: transform .12s, background .12s, color .12s;
 }
 .price-pin.approx span { border: 1.5px dashed var(--approx); background: var(--surface); color: var(--text); }
+.price-pin.land span { background: var(--land-bg); color: var(--land-ink); }
+.price-pin.land.approx span { background: var(--land-bg); }
 .price-pin.fav span::after { content: " ♥"; color: var(--accent); }
 .price-pin.is-hot span, .price-pin:hover span { background: var(--pin-active-bg); color: var(--pin-active-ink); transform: translate(-50%, -50%) scale(1.08); z-index: 1000; }
 .leaflet-marker-icon.is-hot { z-index: 10000 !important; }
@@ -226,6 +233,7 @@ a { color: inherit; }
 .map-legend span { display: flex; align-items: center; gap: 6px; }
 .lg-pin, .lg-approx { display: inline-block; width: 22px; height: 12px; border-radius: 999px; background: var(--pin-bg); box-shadow: 0 0 0 1px var(--line-strong); }
 .lg-approx { border: 1.5px dashed var(--approx); background: var(--approx-fill); box-shadow: none; }
+.lg-land { display: inline-block; width: 22px; height: 12px; border-radius: 999px; background: var(--land-bg); box-shadow: 0 0 0 1px var(--line-strong); }
 .leaflet-popup-content-wrapper { border-radius: 12px; }
 .map-popup { width: 220px; cursor: pointer; }
 .map-popup img { width: 100%; height: 120px; object-fit: cover; border-radius: 8px; display: block; margin-bottom: 6px; background: var(--muted-bg); }

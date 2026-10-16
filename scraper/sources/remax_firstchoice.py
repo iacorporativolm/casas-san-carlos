@@ -23,7 +23,8 @@ SEARCH = "https://remax-firstchoice-sancarlosmexico.com/en/properties-search/"
 DELAY = 20.0  # Crawl-Delay del robots.txt
 LAST_ERRORS: list[str] = []
 RESIDENTIAL = {"House": "Casa", "Condominium": "Departamento / Condominio", "Townhouse": "Townhouse / Villa",
-               "Villa": "Townhouse / Villa", "Apartment": "Departamento / Condominio"}
+               "Villa": "Townhouse / Villa", "Apartment": "Departamento / Condominio",
+               "Land": "Terreno", "Lot": "Terreno"}
 
 
 def _detail(fetcher, url):

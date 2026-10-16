@@ -19,7 +19,7 @@ import time
 import traceback
 from pathlib import Path
 
-from .common import (RESIDENTIAL_TYPES, BlockedError, Fetcher, RobotsDisallowed, smart_case,
+from .common import (INCLUDED_TYPES, BlockedError, Fetcher, RobotsDisallowed, smart_case,
                      in_san_carlos_bbox, now_iso, slugify)
 from .sources import SOURCES
 
@@ -114,6 +114,14 @@ def main(argv=None) -> None:
             listings, rep = fut.result()
             print(f"   {mod.SOURCE}: {rep['status']}, {rep['raw_count']} anuncios en {rep['duration_s']}s"
                   + (f" | {rep['errors'][0][:120]}" if rep["errors"] else ""), flush=True)
+            if rep["status"] == "parcial_bloqueado" and raw_path.exists():
+                # Conserva lo leído en la corrida anterior que hoy no se pudo releer (con su fecha original)
+                got = {r["source_url"] for r in listings}
+                prev = [r for r in json.loads(raw_path.read_text(encoding="utf-8"))["listings"] if r["source_url"] not in got]
+                if prev:
+                    listings = listings + prev
+                    rep["notes"].append(f"Se conservan {len(prev)} anuncios de la corrida anterior que hoy no se pudieron releer (con su scraped_at original)")
+                    rep["raw_count"] = len(listings)
             if rep["status"] in ("ok", "sin_inventario", "parcial_bloqueado"):
                 raw_path.write_text(json.dumps({"report": rep, "listings": listings}, ensure_ascii=False, indent=1),
                                     encoding="utf-8")
@@ -171,7 +179,7 @@ def main(argv=None) -> None:
         if not is_san_carlos(rec):
             rep["excluded_not_san_carlos"] += 1
             continue
-        if rec.get("property_type") is not None and rec["property_type"] not in RESIDENTIAL_TYPES:
+        if rec.get("property_type") is not None and rec["property_type"] not in INCLUDED_TYPES:
             rep["excluded_type"] += 1
             continue
         if FRACTIONAL.search(" ".join(filter(None, [rec.get("title"), rec.get("description")]))):

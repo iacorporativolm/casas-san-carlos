@@ -116,7 +116,7 @@ def scrape(fetcher):
         ptype, raw_type = _type_from(classes, f"{title} {desc or ''}")
         lid = it.get("id-de-propiedad") or None
         det = {}
-        if ptype not in ("Terreno", "Comercial"):
+        if ptype != "Comercial":
             try:
                 det = _detail(fetcher, url, lid)
             except Exception as e:  # noqa: BLE001

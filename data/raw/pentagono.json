@@ -3,7 +3,7 @@
   "key": "pentagono",
   "source": "Pentágono Bienes Raíces",
   "site": "https://pentagonobr.com/",
-  "started_at": "2026-10-15T19:05:31+00:00",
+  "started_at": "2026-10-16T00:33:52+00:00",
   "status": "ok",
   "raw_count": 19,
   "errors": [],
@@ -11,8 +11,8 @@
    "190 propiedades totales en la API; se filtran las de San Carlos/Guaymas"
   ],
   "log": [],
-  "requests": 11,
-  "duration_s": 27.7
+  "requests": 22,
+  "duration_s": 54.8
  },
  "listings": [
   {
@@ -27,8 +27,15 @@
    "zone": "Belo Horizonte",
    "address": null,
    "description": "Lote 58 | 688.51 m²\n\nUbicado frente al área común del exclusivo desarrollo Belo Horizonte, este terreno de 688.51 m² ofrece un entorno privado y tranquilo, rodeado de naturaleza y con vistas privilegiadas.\n\nIdeal para construir una residencia a tu medida y disfrutar del estilo de vida de San Carlos, en una zona con excelente plusvalía.\n\nPrivacidad, naturaleza y ubicación en un solo lugar.",
-   "photos": [],
-   "contact": null,
+   "photos": [
+    "https://pentagonobr.com/wp-content/uploads/2026/09/2c2c1bfc-e500-4493-add5-04d42c1d6dd8.jpg"
+   ],
+   "contact": {
+    "agency": "Pentágono Bienes Raíces",
+    "agent": null,
+    "phone": "+52 (662) 210 2452",
+    "email": null
+   },
    "lat": null,
    "lng": null,
    "coords_precision": null,
@@ -36,7 +43,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/belo-horizonte-6/",
    "listing_id": "Tr-ScV26-52004",
-   "scraped_at": "2026-10-15T19:05:36+00:00",
+   "scraped_at": "2026-10-16T00:34:03+00:00",
    "extra": {
     "categoria_sitio": "terreno-residencial",
     "municipio_sitio": "san-carlos"
@@ -55,8 +62,15 @@
    "zone": "Belo Horizonte",
    "address": null,
    "description": "TERRENO EN VENTA | BELO HORIZONTE, SAN CARLOS\n\nDescubre una excelente oportunidad para construir la residencia que siempre has imaginado en Belo Horizonte, San Carlos.Lote 3 | 679.86 m²\n\nEste amplio terreno cuenta con una ubicación privilegiada frente al área común, ofreciendo un entorno agradable y una impresionante vista al mar y al emblemático cerro Tetakawi.\n\nSu ubicación y dimensiones permiten desarrollar un proyecto residencial que aproveche al máximo el paisaje y el entorno natural de San Carlos, disfrutando de tranquilidad, privacidad y espectaculares vistas.\n\nIdeal para quienes buscan invertir en una propiedad con excelente ubicación y gran potencial, dentro de un desarrollo exclusivo y en una de las zonas con mayor atractivo de San Carlos.\n\nNaturaleza\n\nVista al mar\n\nVista al Tetakawi\n\n679.86 m²\n\nBelo Horizonte, San Carlos\n\nConstruye aquí tu próximo proyecto y disfruta de todo lo que San Carlos tiene para ofrecer.",
-   "photos": [],
-   "contact": null,
+   "photos": [
+    "https://pentagonobr.com/wp-content/uploads/2026/09/d813ef4f-ee7b-4226-8b6b-da53aa94df57.jpg"
+   ],
+   "contact": {
+    "agency": "Pentágono Bienes Raíces",
+    "agent": null,
+    "phone": "+52 (662) 210 2452",
+    "email": null
+   },
    "lat": null,
    "lng": null,
    "coords_precision": null,
@@ -64,7 +78,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/belo-horizonte-5/",
    "listing_id": "Tr-ScV26-52003",
-   "scraped_at": "2026-10-15T19:05:36+00:00",
+   "scraped_at": "2026-10-16T00:34:04+00:00",
    "extra": {
     "categoria_sitio": "terreno-comercial",
     "municipio_sitio": "san-carlos"
@@ -83,8 +97,19 @@
    "zone": "Ranchitos Campestre",
    "address": null,
    "description": "🌿 ¡Terreno campestre en venta en Ranchitos Campestre, San Carlos, Sonora! 🌿\n\nDisfruta de la tranquilidad y belleza natural que ofrece San Carlos con este excelente terreno ubicado en Ranchitos Campestre.\n\n✨ Características:\n\n✔️ Terreno totalmente enrejado.\n\n✔️ Ideal para construir una casa de descanso.\n\n✔️ Excelente opción para inversión.\n\n✔️ Entorno natural.\n\n📍 Ubicación: Ranchitos Campestre, San Carlos, Sonora.\n\n📲 Contáctanos para conocer el precio, las medidas y agendar una visita.\n\n¡Invierte hoy y haz realidad tu proyecto en San Carlos!",
-   "photos": [],
-   "contact": null,
+   "photos": [
+    "https://pentagonobr.com/wp-content/uploads/2026/07/7ac8ae89-0fcc-4771-8e41-b650732b5978.jpg",
+    "https://pentagonobr.com/wp-content/uploads/2026/07/4a685c6f-8eb6-4344-842d-e5737a4805c2.jpg",
+    "https://pentagonobr.com/wp-content/uploads/2026/07/7f44d5d4-b6bf-4e21-a368-69032a813b8c.jpg",
+    "https://pentagonobr.com/wp-content/uploads/2026/07/08b6d444-0202-453e-aca9-432d1f72d645.jpg",
+    "https://pentagonobr.com/wp-content/uploads/2026/07/946faac7-b22c-4d10-9c2a-d43d5bc48c26.jpg"
+   ],
+   "contact": {
+    "agency": "Pentágono Bienes Raíces",
+    "agent": "Lorenia Noriega",
+    "phone": "6621150766",
+    "email": "lorenoriega.pentagonobr@gmail.com"
+   },
    "lat": null,
    "lng": null,
    "coords_precision": null,
@@ -92,7 +117,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/ranchitos-campestre-san-carlos/",
    "listing_id": "CH-SC26-52012",
-   "scraped_at": "2026-10-15T19:05:36+00:00",
+   "scraped_at": "2026-10-16T00:34:07+00:00",
    "extra": {
     "categoria_sitio": "terreno-residencial",
     "municipio_sitio": "san-carlos"
@@ -139,7 +164,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/norte-101-8/",
    "listing_id": "CH-SCV26-12032",
-   "scraped_at": "2026-10-15T19:05:41+00:00",
+   "scraped_at": "2026-10-16T00:34:10+00:00",
    "extra": {
     "categoria_sitio": "residencial",
     "municipio_sitio": "san-carlos"
@@ -186,7 +211,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/norte-101-7/",
    "listing_id": "CH-SCV26-12032",
-   "scraped_at": "2026-10-15T19:05:44+00:00",
+   "scraped_at": "2026-10-16T00:34:13+00:00",
    "extra": {
     "categoria_sitio": "residencial",
     "municipio_sitio": "san-carlos"
@@ -229,7 +254,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/marina-real-2/",
    "listing_id": "CH-SCV26-12030",
-   "scraped_at": "2026-10-15T19:05:46+00:00",
+   "scraped_at": "2026-10-16T00:34:15+00:00",
    "extra": {
     "categoria_sitio": "residencial",
     "municipio_sitio": "guaymas"
@@ -248,8 +273,17 @@
    "zone": "Ranchito Camprestre",
    "address": null,
    "description": "Descubre esta excelente propiedad en Ranchitos Campestre, San Carlos, Sonora, un espacio ideal para vivir en contacto con la naturaleza o generar ingresos.\n\nEl terreno cuenta con dos casas independientes de aproximadamente 140 m² cada una.\n\nLa primera casa dispone de 1 recámara con walk-in closet, sala, comedor, cocina integral, baño y área de lavandería.\n\nLa segunda casa ofrece 2 recámaras, 2 baños completos, sala, comedor y cocina.\n\nRodeada de árboles frutales y amplias áreas verdes, la propiedad brinda un ambiente tranquilo y fresco, complementado con un patio adoquinado perfecto para estacionamiento o reuniones al aire libre.\n\nEquipada con cisterna e hidroneumático, asegura un suministro constante de agua y excelente presión.\n\nUna oportunidad única para disfrutar de la vida en San Carlos o invertir con gran potencial.",
-   "photos": [],
-   "contact": null,
+   "photos": [
+    "https://pentagonobr.com/wp-content/uploads/2026/03/b4c8c493-a682-4163-b34a-2ffa8c305815.jpg",
+    "https://pentagonobr.com/wp-content/uploads/2026/03/d0f38362-8a4f-429f-8cfd-4d8a5c031161.jpg",
+    "https://pentagonobr.com/wp-content/uploads/2026/03/07291b7b-94ee-418d-9987-4e6b3e8ce9db.jpg"
+   ],
+   "contact": {
+    "agency": "Pentágono Bienes Raíces",
+    "agent": "Lorenia Noriega",
+    "phone": "6621150766",
+    "email": "lorenoriega.pentagonobr@gmail.com"
+   },
    "lat": null,
    "lng": null,
    "coords_precision": null,
@@ -257,7 +291,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/san-carlos/",
    "listing_id": "CH-SCV-26-12013",
-   "scraped_at": "2026-10-15T19:05:46+00:00",
+   "scraped_at": "2026-10-16T00:34:17+00:00",
    "extra": {
     "categoria_sitio": "terreno-campestre",
     "municipio_sitio": "san-carlos"
@@ -276,8 +310,17 @@
    "zone": null,
    "address": null,
    "description": "Terreno frente al mar en Guaymas, ubicado en zona privilegiada con alta proyección. Ofrece vistas panorámicas al Mar de Cortés y uso de suelo mixto, ideal para desarrollo residencial, turístico o comercial.\n\nUna excelente oportunidad de inversión en un entorno natural único y de gran plusvalía.",
-   "photos": [],
-   "contact": null,
+   "photos": [
+    "https://pentagonobr.com/wp-content/uploads/2026/02/WhatsApp-Image-2026-04-16-at-13.52.49.jpeg",
+    "https://pentagonobr.com/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-12-at-12.45.33-1.jpeg",
+    "https://pentagonobr.com/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-12-at-12.45.33.jpeg"
+   ],
+   "contact": {
+    "agency": "Pentágono Bienes Raíces",
+    "agent": "Monica Astiazaran Lohr",
+    "phone": "6623440579",
+    "email": "monicab34@live.com"
+   },
    "lat": null,
    "lng": null,
    "coords_precision": null,
@@ -285,7 +328,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/lomas-de-cortez/",
    "listing_id": "TR-GMSV26-52006",
-   "scraped_at": "2026-10-15T19:05:46+00:00",
+   "scraped_at": "2026-10-16T00:34:20+00:00",
    "extra": {
     "categoria_sitio": "terreno-residencial",
     "municipio_sitio": "guaymas"
@@ -304,8 +347,15 @@
    "zone": "Belo Horizonte",
    "address": null,
    "description": "Terreno en venta de 666.74 m² en el exclusivo desarrollo Belo Horizonte, San Carlos, frente al área común.\n\nEl lote 62 es una excelente opción para invertir o construir tu residencia en un entorno privado y tranquilo, con alta plusvalía y cercanía al mar.\n\nPrecio: $2,200.00 usd",
-   "photos": [],
-   "contact": null,
+   "photos": [
+    "https://pentagonobr.com/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-09-at-14.47.04.jpeg"
+   ],
+   "contact": {
+    "agency": "Pentágono Bienes Raíces",
+    "agent": null,
+    "phone": "+52 (662) 210 2452",
+    "email": null
+   },
    "lat": null,
    "lng": null,
    "coords_precision": null,
@@ -313,7 +363,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/belo-horizonte-4/",
    "listing_id": "TR-SCV26-52002",
-   "scraped_at": "2026-10-15T19:05:46+00:00",
+   "scraped_at": "2026-10-16T00:34:22+00:00",
    "extra": {
     "categoria_sitio": "terreno-residencial",
     "municipio_sitio": "san-carlos"
@@ -357,7 +407,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/country-club-san-carlos-2/",
    "listing_id": "CH-SCV26-12005",
-   "scraped_at": "2026-10-15T19:05:49+00:00",
+   "scraped_at": "2026-10-16T00:34:25+00:00",
    "extra": {
     "categoria_sitio": "residencial",
     "municipio_sitio": "san-carlos"
@@ -376,8 +426,16 @@
    "zone": "Belo Horizonte",
    "address": null,
    "description": "Exclusivo terreno con vista panorámica al Mar de Cortés y acceso a la playa. Ubicado en fraccionamiento privado con seguridad 24 h. Ideal para construir tu casa de descanso o invertir en una de las zonas con mayor plusvalía de San Carlos.",
-   "photos": [],
-   "contact": null,
+   "photos": [
+    "https://pentagonobr.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-11-25-at-11.09.57.jpeg",
+    "https://pentagonobr.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-11-25-at-11.09.43.jpeg"
+   ],
+   "contact": {
+    "agency": "Pentágono Bienes Raíces",
+    "agent": "Lorenia Noriega",
+    "phone": "6621150766",
+    "email": "lorenoriega.pentagonobr@gmail.com"
+   },
    "lat": null,
    "lng": null,
    "coords_precision": null,
@@ -385,7 +443,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/belo-horizonte-3/",
    "listing_id": "Tr-ScV25-50008",
-   "scraped_at": "2026-10-15T19:05:49+00:00",
+   "scraped_at": "2026-10-16T00:34:27+00:00",
    "extra": {
     "categoria_sitio": "terreno-residencial",
     "municipio_sitio": "san-carlos"
@@ -430,7 +488,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/marina-real-embarcadero/",
    "listing_id": "CH-SCV25-11002",
-   "scraped_at": "2026-10-15T19:05:51+00:00",
+   "scraped_at": "2026-10-16T00:34:30+00:00",
    "extra": {
     "categoria_sitio": "residencial",
     "municipio_sitio": "san-carlos"
@@ -474,7 +532,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/residencial-amagi/",
    "listing_id": "CH-SCV-11001",
-   "scraped_at": "2026-10-15T19:05:54+00:00",
+   "scraped_at": "2026-10-16T00:34:32+00:00",
    "extra": {
     "categoria_sitio": "residencial",
     "municipio_sitio": "san-carlos"
@@ -490,11 +548,20 @@
    "bathrooms": null,
    "construction_m2": null,
    "land_m2": 1000.0,
-   "zone": "Lomas De Miramar",
+   "zone": "Lomas de Miramar",
    "address": null,
    "description": "¡Terreno Residencial en Venta! | Miramar (Atrás del Colegio Americano)\n\nExcelente oportunidad de inversión en una de las zonas de mayor demanda y proyección. Terreno residencial de gran dimensión, ideal para desarrollar una residencia de lujo con amplios jardines y áreas sociales o un proyecto de inversión patrimonial.\n\nIdentificación del Predio: Fracción 2 de Fracción 12-C3\n\nSuperficie Total: 1,000.00 m²\n\nUbicación Estratégica: Ubicado en Miramar, justo detrás del Colegio Americano, en un entorno residencial tranquilo, seguro y con excelente conectividad a las vías principales.\n\nVocación: Perfecto para la construcción de una residencia privada de alto nivel con espacio para alberca, terrazas y cocheras amplias, o para desarrolladores que buscan lotes de alta plusvalía.\n\nUna propiedad con ubicación privilegiada que combina exclusividad, espacio y cercanía a las mejores zonas educativas y residenciales.",
-   "photos": [],
-   "contact": null,
+   "photos": [
+    "https://pentagonobr.com/wp-content/uploads/2024/06/e2202556-97f9-473e-8ba9-df9d124122f0.jpg",
+    "https://pentagonobr.com/wp-content/uploads/2024/06/0efc40a1-74df-4c98-b3eb-93cad10c79dc.jpg",
+    "https://pentagonobr.com/wp-content/uploads/2024/06/Video-Ale.mp4"
+   ],
+   "contact": {
+    "agency": "Pentágono Bienes Raíces",
+    "agent": null,
+    "phone": "+52 (662) 210 2452",
+    "email": null
+   },
    "lat": null,
    "lng": null,
    "coords_precision": null,
@@ -502,7 +569,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/miramar/",
    "listing_id": "TR-GYS-50006",
-   "scraped_at": "2026-10-15T19:05:54+00:00",
+   "scraped_at": "2026-10-16T00:34:35+00:00",
    "extra": {
     "categoria_sitio": "terreno-residencial",
     "municipio_sitio": "guaymas"
@@ -537,7 +604,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/norte-101-3/",
    "listing_id": "TR-SCV26-52014",
-   "scraped_at": "2026-10-15T19:05:56+00:00",
+   "scraped_at": "2026-10-16T00:34:37+00:00",
    "extra": {
     "categoria_sitio": "residencial",
     "municipio_sitio": "san-carlos"
@@ -556,8 +623,16 @@
    "zone": null,
    "address": null,
    "description": "San Carlos\n\nPrecioso terreno a la orilla de la playa en privada con acceso controlado.\n\n1,143 mts\n\n$393.70 Dlls / mt\n\nPrecio: $ 450,000.00 Dlls",
-   "photos": [],
-   "contact": null,
+   "photos": [
+    "https://pentagonobr.com/wp-content/uploads/2024/05/a24f409c-6c59-45cd-93bc-bc43b2af4bfd.jpg",
+    "https://pentagonobr.com/wp-content/uploads/2024/05/1cc2923c-157a-4c43-aa57-599539a98a60.jpg"
+   ],
+   "contact": {
+    "agency": "Pentágono Bienes Raíces",
+    "agent": null,
+    "phone": "+52 (662) 210 2452",
+    "email": null
+   },
    "lat": null,
    "lng": null,
    "coords_precision": null,
@@ -565,7 +640,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/arrecifes-2/",
    "listing_id": "TR-SCV-50005",
-   "scraped_at": "2026-10-15T19:05:56+00:00",
+   "scraped_at": "2026-10-16T00:34:39+00:00",
    "extra": {
     "categoria_sitio": "terreno-residencial",
     "municipio_sitio": "san-carlos"
@@ -584,8 +659,16 @@
    "zone": "Punta Arrecifes",
    "address": null,
    "description": "Terreno en Venta | Punta Arrecifes, San Carlos\nPrecioso terreno frente al mar, ubicado en Punta Arrecifes, San Carlos, dentro de una de las privadas más exclusivas de la zona, con acceso controlado y un entorno privilegiado.\n\nCuenta con una superficie de 1,143 m², ideal para construir una residencia con espectaculares vistas al mar.\n\nPrecio por m²: $393.70 USD",
-   "photos": [],
-   "contact": null,
+   "photos": [
+    "https://pentagonobr.com/wp-content/uploads/2024/05/WhatsApp-Image-2025-05-05-at-13.16.02.jpeg",
+    "https://pentagonobr.com/wp-content/uploads/2024/05/1cc2923c-157a-4c43-aa57-599539a98a60.jpg"
+   ],
+   "contact": {
+    "agency": "Pentágono Bienes Raíces",
+    "agent": null,
+    "phone": "+52 (662) 210 2452",
+    "email": null
+   },
    "lat": null,
    "lng": null,
    "coords_precision": null,
@@ -593,7 +676,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/arrecifes/",
    "listing_id": "TR-SCV-50005",
-   "scraped_at": "2026-10-15T19:05:56+00:00",
+   "scraped_at": "2026-10-16T00:34:42+00:00",
    "extra": {
     "categoria_sitio": "terreno-residencial",
     "municipio_sitio": "san-carlos"
@@ -612,8 +695,17 @@
    "zone": "Belo Horizonte",
    "address": null,
    "description": "Terreno en VENTA con superficie de 779.05 mts, en una de la zona mas exclusiva de San Carlos, con hermosa vista.",
-   "photos": [],
-   "contact": null,
+   "photos": [
+    "https://pentagonobr.com/wp-content/uploads/2023/07/WhatsApp-Image-2026-04-15-at-12.31.27-1.jpeg",
+    "https://pentagonobr.com/wp-content/uploads/2023/07/2b76312b-178c-49c0-a0f6-61ef2fdfc6b7.jpg",
+    "https://pentagonobr.com/wp-content/uploads/2023/07/44212299-5536-4b1f-a198-bad1f22f291e.jpg"
+   ],
+   "contact": {
+    "agency": "Pentágono Bienes Raíces",
+    "agent": "Sara Urquides",
+    "phone": "6621430115",
+    "email": "saraus3@hotmail.com"
+   },
    "lat": null,
    "lng": null,
    "coords_precision": null,
@@ -621,7 +713,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/belo-horizonte/",
    "listing_id": "TR-SCV-50006",
-   "scraped_at": "2026-10-15T19:05:56+00:00",
+   "scraped_at": "2026-10-16T00:34:45+00:00",
    "extra": {
     "categoria_sitio": "terreno-residencial",
     "municipio_sitio": "san-carlos"
@@ -658,7 +750,7 @@
    "source": "Pentágono Bienes Raíces",
    "source_url": "https://pentagonobr.com/properties/el-mirador/",
    "listing_id": "CH SCV-1913",
-   "scraped_at": "2026-10-15T19:05:58+00:00",
+   "scraped_at": "2026-10-16T00:34:47+00:00",
    "extra": {
     "categoria_sitio": "residencial",
     "municipio_sitio": "san-carlos"

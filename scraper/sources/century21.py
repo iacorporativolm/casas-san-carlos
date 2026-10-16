@@ -19,7 +19,8 @@ DELAY = 2.5
 LAST_ERRORS: list[str] = []
 SUBTYPES = {"casa": "Casa", "departamento": "Departamento / Condominio", "casa_en_condominio": "Townhouse / Villa",
             "villa": "Townhouse / Villa", "townhouse": "Townhouse / Villa", "duplex": "Townhouse / Villa",
-            "terreno": "Terreno", "lote_residencial": "Terreno"}
+            "terreno": "Terreno", "lote_residencial": "Terreno", "terreno_residencial": "Terreno",
+            "terreno_comercial": "Terreno", "lote": "Terreno", "lote_comercial": "Terreno"}
 XHR = {"X-Requested-With": "XMLHttpRequest"}
 
 
@@ -46,7 +47,7 @@ def scrape(fetcher):
     out = []
     for r in results:
         ptype = SUBTYPES.get(r.get("tipoPropiedad"))
-        if ptype not in ("Casa", "Departamento / Condominio", "Townhouse / Villa"):
+        if ptype not in ("Casa", "Departamento / Condominio", "Townhouse / Villa", "Terreno"):
             continue
         detail_url = "https://century21mexico.com" + r["urlCorrectaPropiedad"]
         try:

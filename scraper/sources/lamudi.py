@@ -27,7 +27,7 @@ BASE = "https://www.lamudi.com.mx/sonora/guaymas/san-carlos-nuevo-guaymas/{t}/fo
 DELAY = 3.0
 LAST_ERRORS: list[str] = []
 PARTIAL_BLOCK = False  # True si el sitio empezó a pedir verificación humana a mitad de la corrida
-TYPES = {"casa": "Casa", "departamento": "Departamento / Condominio"}
+TYPES = {"casa": "Casa", "departamento": "Departamento / Condominio", "terreno": "Terreno"}
 RES_TYPES = {"SingleFamilyResidence", "House", "Apartment", "Residence", "Accommodation", "Place"}
 
 
@@ -50,9 +50,12 @@ def _detail(fetcher, url):
     res, listing = {}, {}
     for ld in extract_json_ld(soup):
         t = ld.get("@type")
-        if t in RES_TYPES and ld.get("@id", "").rstrip("/") == url.rstrip("/") or (t in RES_TYPES and not res):
+        ld_id = (ld.get("@id") or "").rstrip("/")
+        if ld_id == url.rstrip("/") and t != "BreadcrumbList":
+            res = ld  # objeto principal del inmueble (casa/depto: SingleFamilyResidence...; terreno: RealEstateListing)
+        elif t in RES_TYPES and not res:
             res = ld
-        if t == "RealEstateListing":
+        if t == "RealEstateListing" and ld_id.endswith("#page"):
             listing = ld
     price_el = soup.select_one(".prices-and-fees__price.sale") or soup.select_one(".prices-and-fees__price")
     feats = {}
@@ -120,9 +123,13 @@ def scrape(fetcher):
             geo = res.get("geo") or {}
             images = lst.get("image") or res.get("image") or []
             images = images if isinstance(images, list) else [images]
-            land, _ = (parse_number(f.get("Superficie de terreno")), None)
+            land = parse_number(f.get("Superficie de terreno"))
             fl = res.get("floorSize") or {}
-            constr = parse_number(fl.get("value")) if (fl.get("unitCode") in (None, "MTK")) else None
+            fl_m2 = parse_number(fl.get("value")) if (fl.get("unitCode") in (None, "MTK")) else None
+            if ptype == "Terreno":
+                constr, land = None, land or fl_m2  # en terrenos, la superficie publicada es la del lote
+            else:
+                constr = fl_m2
             rec = make_listing(
                 source=SOURCE, source_url=url, listing_id=url.rstrip("/").split("/")[-1], scraped_at=now_iso(),
                 title=d["h1"] or res.get("name"), price=parse_number(pr) if pr else None, currency=cur,

@@ -172,5 +172,34 @@
   "osm_display_name": "Calle Camino de los Seris, San Carlos Nuevo Guaymas, Guaymas, Sonora, 85506, México",
   "query": "Calle Camino de los Seris, San Carlos, Guaymas, Sonora, México"
  },
- "creston": null
+ "creston": null,
+ "punta-arrecifes": null,
+ "terreno-23-paseo-del-coral-punta-arrecifes": null,
+ "lomas-de-cortez": null,
+ "750-lomas-de-cortez-lomas-de-cortez": null,
+ "6-11-lomas-de-cortez-lomas-de-cortez": null,
+ "brisas-del-mar-de-cortes": null,
+ "alamito-bv-manlio-fabio-beltrones-km4": null,
+ "lomas-altas": null,
+ "country-club-san-carlos": null,
+ "cerrada-tepupa-numero-53-country-club": null,
+ "lote-24-calle-k-y-ave-23-manzana-8-rio-azul-proyecto-nacapule": null,
+ "bahia-el-encanto": null,
+ "calle-paseo-del-sahuaro-lote-24-encanto-canyon": null,
+ "lote-30-3-encanto-canyon": null,
+ "rio-azul": null,
+ "lote-16-y-17-manzana-7": null,
+ "ejido-trece-de-julio": null,
+ "nacap": null,
+ "buenos-aires": {
+  "lat": 27.983944,
+  "lng": -110.956665,
+  "radius_m": 1500,
+  "osm_display_name": "Buenos Aires, Guaymas, Sonora, 85500, México",
+  "query": "Buenos Aires, Sonora, México"
+ },
+ "calle-0-s-n-lote-25-manzana": null,
+ "belo-horizonte": null,
+ "ranchitos-campestre": null,
+ "ranchito-camprestre": null
 }
